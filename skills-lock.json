@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "ppt-master": {
+      "source": "hugohe3/ppt-master",
+      "sourceType": "github",
+      "skillPath": "skills/ppt-master/SKILL.md",
+      "computedHash": "469fcd46b7c5b1eac68c3f0c9dc00d262e893873c98dd87e5ecac2753f3302b3"
+    }
+  }
+}

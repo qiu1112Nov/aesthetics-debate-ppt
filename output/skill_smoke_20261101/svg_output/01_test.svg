@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Noto Sans CJK SC" font-size="32" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F5F0"/>
+  <g id="title" data-pptx-bounds="80 80 1120 90">
+    <text x="80" y="140" font-size="52" font-weight="bold" fill="#183D46">中文可编辑 PPT 测试</text>
+  </g>
+  <g id="description" data-pptx-bounds="80 210 1120 130" fill="#183D46">
+    <text x="80" y="255">这是一张安装验证用的测试幻灯片。</text>
+    <text x="80" y="315">标题、正文和下方形状均可单独编辑。</text>
+  </g>
+  <g id="editable-shapes" data-pptx-bounds="80 400 1120 190">
+    <rect x="80" y="400" width="720" height="190" rx="20" fill="#1B6B70"/>
+    <text x="130" y="510" font-weight="bold" fill="#FFFFFF">可编辑的圆角矩形</text>
+    <ellipse cx="1040" cy="495" rx="90" ry="90" fill="#CE7141"/>
+  </g>
+</svg>
