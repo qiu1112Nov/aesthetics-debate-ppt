@@ -1,0 +1,36 @@
+{
+  "page_ids": [
+    "P01",
+    "P03",
+    "P04",
+    "P05",
+    "P06"
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "date_Asia_Shanghai": "2026-11-02",
+  "rendered_min_font_px": {
+    "P01": 32,
+    "P03": 32,
+    "P04": 32,
+    "P05": 32,
+    "P06": 32
+  },
+  "desktop": "PASS: images, dimensions, min-font including scaled SVG labels, horizontal overflow, content/footer separation, keyboard, buttons and source dialog",
+  "mobile": "PASS: 390x844 and 844x390 browser simulation; fit, no viewport overflow, swipe, zoom and restore; not physical-device testing",
+  "standalone": "PASS: no external stylesheet/script/image requests",
+  "javascript_errors": [],
+  "screenshots": {
+    "count": 5,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "overview": [
+      960,
+      2700
+    ]
+  }
+}

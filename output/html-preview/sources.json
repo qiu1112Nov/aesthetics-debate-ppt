@@ -1,0 +1,38 @@
+[
+  {
+    "id": "图1",
+    "file": "assets/early-spring.jpg",
+    "commons_title": "File:Guo Xi - Early Spring (large).jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:Guo_Xi_-_Early_Spring_(large).jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      1952,
+      2839
+    ],
+    "license": "Public domain",
+    "usage_terms": "Public domain",
+    "metadata_verified": true,
+    "museum_page_directly_verified": false,
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.npm.gov.tw/en/collection/selections_02.htm?docno=48&amp;catno=15\">http://www.npm.gov.tw/en/collection/selections_02.htm?docno=48&amp;catno=15</a>",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "sha256": "581b6735d9fa30bad46aa1424ea926632725b381e0310ff3256f429bed444b4e"
+  },
+  {
+    "id": "图2",
+    "file": "assets/school-of-athens.jpg",
+    "commons_title": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      3820,
+      2964
+    ],
+    "license": "Public domain",
+    "usage_terms": "Public domain",
+    "metadata_verified": true,
+    "museum_page_directly_verified": false,
+    "credit": "Stitched together from <a rel=\"nofollow\" class=\"external text\" href=\"http://mv.vatican.va/3_EN/pages/x-Schede/SDRs/SDRs_03_02_020.html\">vatican.va</a>",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "sha256": "a351b0b9c429d83e71e992df7d3a433775c37e18ac46ef6f663520b075b17ef4"
+  }
+]
