@@ -1,6 +1,3 @@
-
-
-
 歷代名畫記/卷第六 - 维基文库，自由的图书馆
 (function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"16424442-17d2-42f9-b589-750fc85613c1","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"歷代名畫記/卷第六","wgTitle":"歷代名畫記/卷第六","wgCurRevisionId":2369786,"wgRevisionId":2369786,"wgArticleId":171168,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["唐朝","張彥遠","466年 (提及)","PD-old"],"wgPageViewLanguage":"zh","wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"歷代名畫記/卷第六","wgRelevantArticleId":171168,"wgTempUserName":null,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q85540648","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
 RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];
@@ -37,188 +34,188 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 跳转到内容
 
-	
-		
-			
-				
 
-	
-	
+
+
+
+
+
+
 
 主菜单
-	
-	
 
 
-				
-		
 
-	
+
+
+
+
+
 	主菜单
 	移至侧栏
 	隐藏
 
 
-	
 
-	
+
+
 		导航
-	
-	
-		
-		
-			
+
+
+
+
+
 			首页随机作品随机作者随机原本所有页面
-		
-		
-	
 
 
-	
 
-	
+
+
+
+
+
 		编者
-	
-	
-		
-		
-			
+
+
+
+
+
 			社群首页写字间最近更改特殊页面
-		
-		
-	
 
 
 
-	
+
+
+
+
 		帮助
-	
-	
-		
-		
-			
+
+
+
+
+
 			帮助关于维基文库联系我们方针与指引
-		
-		
-	
 
 
 
-	
+
+
+
+
 		显示选项
-	
-	
-		
-		
-			
-			
-		
-		
-	
 
 
 
 
-				
-
-	
 
 
-		
-			
-
-	
-	
-		
-	
 
 
-		
-		
-			
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 搜索
-	
-	
-		
-			
-				
-					
-						
-						
-					
-					
-				
+
+
+
+
+
+
+
+
+
+
+
 				搜索
-			
-		
-	
 
 
-			
-	
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
-		
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 外观
-	
-	
 
 
-			
-				
-			
-		
-	
 
 
-	
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			资助
 
 创建账号
@@ -226,29 +223,29 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 登录
 
 
-			
-		
-		
-	
 
 
-	
-	
 
-	
-	
+
+
+
+
+
+
+
+
 
 个人工具
-	
-	
 
 
-		
 
-	
-		
-		
-			
+
+
+
+
+
+
+
 
 资助
 
@@ -261,167 +258,167 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 登录
 
 
-			
-		
-		
-	
-
-
-	
-	
 
 
 
 
-		
-	
 
 
-	
-		
+
+
+
+
+
+
+
+
+
+
+
+
 			(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());
-		
-		
-			
-		
-			
-				
-				
-				
-		
-		
-	
-	
-				
-					
-					
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	目录
 	移至侧栏
 	隐藏
 
 
 
-	
-		
-			
+
+
+
 				（首段）
-			
-		
-		
-		
-			
+
+
+
+
+
 				1
 				宋
-			
-		
-		
-		
-		
-	
 
 
 
-					
-		
-			
-		
-		
-			
-				
-					
-						
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 开关目录
-	
-	
 
 
-							
-			
-		
-	
 
 
-					
+
+
+
+
+
+
+
 					歷代名畫記/卷第六
-			
 
-	
-	
+
+
+
 
 添加语言
-	
-	
 
-		
-			
-			
-				
-				
-			
+
+
+
+
+
+
+
+
 			添加链接
-		
-
-	
 
 
-				
-					
-						
-							
-								
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
 			作品
 
 讨论
 
 
-			
-		
-		
-	
 
 
-								
 
-	
+
+
+
+
+
+
 	不转换
-	
-	
 
 
-					
 
-	
-		
-		
-			
+
+
+
+
+
+
+
 			不转换简体繁體
-		
-		
-	
 
 
-				
-	
 
 
-							
-						
-						
-							
-			    
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
 			阅读
 
 编辑
@@ -429,43 +426,43 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 查看历史
 
 
-			
-		
-		
-	
 
 
-			
 
-							
-								
 
-	
-	
+
+
+
+
+
+
+
+
+
 
 工具
-	
-	
 
 
-									
-						
 
-	
+
+
+
+
+
 	工具
 	移至侧栏
 	隐藏
 
 
-	
 
-	
+
+
 		操作
-	
-	
-		
-		
-			
+
+
+
+
+
 
 阅读
 
@@ -478,76 +475,76 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 查看历史
 
 
-			
-		
-		
-	
 
 
 
-	
+
+
+
+
+
 		常规
-	
-	
-		
-		
-			
+
+
+
+
+
 			链入页面相关更改上传文件固定链接页面信息引用此页获取短链接
-		
-		
-	
 
 
 
-	
+
+
+
+
 		打印/导出
-	
-	
-		
-		
-			
+
+
+
+
+
 			可打印版下载为EPUB下载为MOBI下载为PDF其他格式
-		
-		
-	
 
 
 
-	
+
+
+
+
 		在其他项目中
-	
-	
-		
-		
-			
+
+
+
+
+
 			维基数据项目
-		
-		
-	
 
 
 
 
-									
-				
-	
 
 
-							
-						
-					
-				
-				
-					
-						
-							
-				
-							
-		
-						
-							
-				
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	外观
 	移至侧栏
 	隐藏
@@ -556,22 +553,22 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 
 
-							
-		
-					
-				
-				
-					
-							
+
+
+
+
+
+
+
 		下载
-		
+
 
 						維基文庫，自由的圖書館
 						< 歷代名畫記
-						
-					
-					
-					
+
+
+
+
 
 
 
@@ -623,7 +620,7 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 
 
-　
+
 
 
 
@@ -659,19 +656,19 @@ Public domainPublic domainfalsefalse
 
 取自“https://zh.wikisource.org/w/index.php?title=歷代名畫記/卷第六&oldid=2369786”
 					分类：唐朝張彥遠466年 (提及)PD-old
-				
-			
-			
-		
-		
-			
-				
+
+
+
+
+
+
+
 	 此页面最后编辑于2024年2月28日 (星期三) 12:22。
 	本站的全部文字在知识共享 署名-相同方式共享 4.0协议之条款下提供，附加条款亦可能应用。（请参阅使用条款）在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（详情）。
 Wikisource®和维基文库标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。维基媒体基金会是在美国佛罗里达州登记的501(c)(3)免税、非营利、慈善机构。
 
 
-				
+
 	隐私政策
 	关于维基文库
 	免责声明
@@ -683,114 +680,113 @@ Wikisource®和维基文库标志是维基媒体基金会的注册商标；维�
 	移动版视图
 
 
-				
-	
-	
 
 
-			
-		
-	 
- 
 
-	
-		
-			
-				
+
+
+
+
+
+
+
+
+
+
+
 
 搜索
-			
-		
-			
-		
-			
-				
-					
-						
-							
-								
-								
-							
-							
-						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 						搜索
-					
-				
-			
-		
-		
-				
-						
-					
-						
-						
+
+
+
+
+
+
+
+
+
+
 
 开关目录
-						
-						
-					
-						
-						
-					
-						
-					
-			
+
+
+
+
+
+
+
+
+
 				歷代名畫記/卷第六
-			
-		
-		
-			
-				
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-		
-			
-				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 添加语言
-			
-			
+
+
 
 添加话题
-			
-		
-			
-				
-				
-			
-		
-	
 
 
-	
-		
-	
+
+
+
+
+
+
+
+
+
+
+
 
 (RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-7c8b67c8f5-xbgnt","wgBackendResponseTime":166,"wgPageParseReport":{"limitreport":{"cputime":"0.143","walltime":"0.177","ppvisitednodes":{"value":324,"limit":1000000},"revisionsize":{"value":12853,"limit":2097152},"postexpandincludesize":{"value":19349,"limit":2097152},"templateargumentsize":{"value":4912,"limit":2097152},"expansiondepth":{"value":7,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":9030,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  133.691      1 -total"," 34.54%   46.181      1 Template:Header"," 28.49%   38.085      1 Template:YL"," 23.92%   31.980      1 Template:PD-old"," 22.06%   29.495      1 Template:License","  6.79%    9.075      8 Template:參","  1.92%    2.560     38 Template:*","  1.08%    1.443      1 Template:Footer"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":6028956,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-dccb7c848-94kqr","timestamp":"20261026114254","ttl":2592000,"transientcontent":false,"expiry-source":"Template:PD-old (currentyear)"}}});});
 {"@context":"https:\/\/schema.org","@type":"Article","name":"\u6b77\u4ee3\u540d\u756b\u8a18\/\u5377\u7b2c\u516d","url":"https:\/\/zh.wikisource.org\/wiki\/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98\/%E5%8D%B7%E7%AC%AC%E5%85%AD","sameAs":"http:\/\/www.wikidata.org\/entity\/Q85540648","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q85540648","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2013-01-10T12:16:18Z","dateModified":"2024-02-28T12:22:33Z"}
-

@@ -1,6 +1,3 @@
-
-
-
 苦瓜和尚畫語錄 - 维基文库，自由的图书馆
 (function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"6dbf3767-003b-4128-a9b2-f8940fbf4013","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"苦瓜和尚畫語錄","wgTitle":"苦瓜和尚畫語錄","wgCurRevisionId":1496375,"wgRevisionId":1496375,"wgArticleId":136031,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["清朝","石濤","1728年 (提及)"],"wgPageViewLanguage":"zh","wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"苦瓜和尚畫語錄","wgRelevantArticleId":136031,"wgTempUserName":null,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q10426916","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
 RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];
@@ -37,188 +34,188 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 跳转到内容
 
-	
-		
-			
-				
 
-	
-	
+
+
+
+
+
+
 
 主菜单
-	
-	
 
 
-				
-		
 
-	
+
+
+
+
+
 	主菜单
 	移至侧栏
 	隐藏
 
 
-	
 
-	
+
+
 		导航
-	
-	
-		
-		
-			
+
+
+
+
+
 			首页随机作品随机作者随机原本所有页面
-		
-		
-	
 
 
-	
 
-	
+
+
+
+
+
 		编者
-	
-	
-		
-		
-			
+
+
+
+
+
 			社群首页写字间最近更改特殊页面
-		
-		
-	
 
 
 
-	
+
+
+
+
 		帮助
-	
-	
-		
-		
-			
+
+
+
+
+
 			帮助关于维基文库联系我们方针与指引
-		
-		
-	
 
 
 
-	
+
+
+
+
 		显示选项
-	
-	
-		
-		
-			
-			
-		
-		
-	
 
 
 
 
-				
-
-	
 
 
-		
-			
-
-	
-	
-		
-	
 
 
-		
-		
-			
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 搜索
-	
-	
-		
-			
-				
-					
-						
-						
-					
-					
-				
+
+
+
+
+
+
+
+
+
+
+
 				搜索
-			
-		
-	
 
 
-			
-	
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
-		
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 外观
-	
-	
 
 
-			
-				
-			
-		
-	
 
 
-	
-	
-
-	
-		
-		
-			
-			
-		
-		
-	
 
 
-	
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			资助
 
 创建账号
@@ -226,29 +223,29 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 登录
 
 
-			
-		
-		
-	
 
 
-	
-	
 
-	
-	
+
+
+
+
+
+
+
+
 
 个人工具
-	
-	
 
 
-		
 
-	
-		
-		
-			
+
+
+
+
+
+
+
 
 资助
 
@@ -261,365 +258,365 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 登录
 
 
-			
-		
-		
-	
-
-
-	
-	
 
 
 
 
-		
-	
 
 
-	
-		
+
+
+
+
+
+
+
+
+
+
+
+
 			(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());
-		
-		
-			
-		
-			
-				
-				
-				
-		
-		
-	
-	
-				
-					
-					
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	目录
 	移至侧栏
 	隐藏
 
 
 
-	
-		
-			
+
+
+
 				（首段）
-			
-		
-		
-		
-			
+
+
+
+
+
 				1
 				一畫章第一
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				2
 				了法章第二
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				3
 				變化章第三
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				4
 				尊受章第四
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				5
 				筆墨章第五
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				6
 				運腕章第六
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				7
 				絪縕章第七
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				8
 				山川章第八
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				9
 				皴法章第九
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				10
 				境界章第十
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				11
 				蹊徑章第十一
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				12
 				林木草章第十二
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				13
 				海濤章第十三
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				14
 				四時章第十四
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				15
 				遠塵章第十五
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				16
 				脫俗章第十六
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				17
 				兼字章第十七
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				18
 				資任章第十八
-			
-		
-		
-		
-		
-	
-	
-		
-			
+
+
+
+
+
+
+
+
+
 				19
 				跋
-			
-		
-		
-		
-		
-	
 
 
 
-					
-		
-			
-		
-		
-			
-				
-					
-						
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 开关目录
-	
-	
 
 
-							
-			
-		
-	
 
 
-					
+
+
+
+
+
+
+
 					苦瓜和尚畫語錄
-			
 
-	
-	
+
+
+
 
 添加语言
-	
-	
 
-		
-			
-			
-				
-				
-			
+
+
+
+
+
+
+
+
 			添加链接
-		
-
-	
 
 
-				
-					
-						
-							
-								
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
 			作品
 
 讨论
 
 
-			
-		
-		
-	
 
 
-								
 
-	
+
+
+
+
+
+
 	不转换
-	
-	
 
 
-					
 
-	
-		
-		
-			
+
+
+
+
+
+
+
 			不转换简体繁體
-		
-		
-	
 
 
-				
-	
 
 
-							
-						
-						
-							
-			    
 
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
 			阅读
 
 编辑
@@ -627,43 +624,43 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 查看历史
 
 
-			
-		
-		
-	
 
 
-			
 
-							
-								
 
-	
-	
+
+
+
+
+
+
+
+
+
 
 工具
-	
-	
 
 
-									
-						
 
-	
+
+
+
+
+
 	工具
 	移至侧栏
 	隐藏
 
 
-	
 
-	
+
+
 		操作
-	
-	
-		
-		
-			
+
+
+
+
+
 
 阅读
 
@@ -676,76 +673,76 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 查看历史
 
 
-			
-		
-		
-	
 
 
 
-	
+
+
+
+
+
 		常规
-	
-	
-		
-		
-			
+
+
+
+
+
 			链入页面相关更改上传文件固定链接页面信息引用此页获取短链接
-		
-		
-	
 
 
 
-	
+
+
+
+
 		打印/导出
-	
-	
-		
-		
-			
+
+
+
+
+
 			可打印版下载为EPUB下载为MOBI下载为PDF其他格式
-		
-		
-	
 
 
 
-	
+
+
+
+
 		在其他项目中
-	
-	
-		
-		
-			
+
+
+
+
+
 			维基共享资源维基百科维基数据项目
-		
-		
-	
 
 
 
 
-									
-				
-	
 
 
-							
-						
-					
-				
-				
-					
-						
-							
-				
-							
-		
-						
-							
-				
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	外观
 	移至侧栏
 	隐藏
@@ -754,22 +751,22 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 
 
-							
-		
-					
-				
-				
-					
-							
+
+
+
+
+
+
+
 		下载
-		
+
 
 						維基文庫，自由的圖書館
-						
-						
-					
-					
-					
+
+
+
+
+
 
 
 
@@ -859,19 +856,19 @@ RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready"
 
 取自“https://zh.wikisource.org/w/index.php?title=苦瓜和尚畫語錄&oldid=1496375”
 					分类：清朝石濤1728年 (提及)
-				
-			
-			
-		
-		
-			
-				
+
+
+
+
+
+
+
 	 此页面最后编辑于2018年8月23日 (星期四) 14:12。
 	本站的全部文字在知识共享 署名-相同方式共享 4.0协议之条款下提供，附加条款亦可能应用。（请参阅使用条款）在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（详情）。
 Wikisource®和维基文库标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。维基媒体基金会是在美国佛罗里达州登记的501(c)(3)免税、非营利、慈善机构。
 
 
-				
+
 	隐私政策
 	关于维基文库
 	免责声明
@@ -883,114 +880,113 @@ Wikisource®和维基文库标志是维基媒体基金会的注册商标；维�
 	移动版视图
 
 
-				
-	
-	
 
 
-			
-		
-	 
- 
 
-	
-		
-			
-				
+
+
+
+
+
+
+
+
+
+
+
 
 搜索
-			
-		
-			
-		
-			
-				
-					
-						
-							
-								
-								
-							
-							
-						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 						搜索
-					
-				
-			
-		
-		
-				
-						
-					
-						
-						
+
+
+
+
+
+
+
+
+
+
 
 开关目录
-						
-						
-					
-						
-						
-					
-						
-					
-			
+
+
+
+
+
+
+
+
+
 				苦瓜和尚畫語錄
-			
-		
-		
-			
-				
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-			
 
 
-			
-		
-			
-				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 添加语言
-			
-			
+
+
 
 添加话题
-			
-		
-			
-				
-				
-			
-		
-	
 
 
-	
-		
-	
+
+
+
+
+
+
+
+
+
+
+
 
 (RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-7c8b67c8f5-8n77w","wgBackendResponseTime":163,"wgPageParseReport":{"limitreport":{"cputime":"0.110","walltime":"0.181","ppvisitednodes":{"value":115,"limit":1000000},"revisionsize":{"value":18724,"limit":2097152},"postexpandincludesize":{"value":6087,"limit":2097152},"templateargumentsize":{"value":12,"limit":2097152},"expansiondepth":{"value":5,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":459,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  140.920      1 -total"," 50.34%   70.937      1 苦瓜和尚畫語錄/跋"," 48.97%   69.008      1 Template:Header"," 32.74%   46.137      1 Template:YL"]},"scribunto":{"limitreport-timeusage":{"value":"0.058","limit":"10.000"},"limitreport-memusage":{"value":5911479,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-5875ccb8b6-6w25r","timestamp":"20261014173150","ttl":2592000,"transientcontent":false}}});});
 {"@context":"https:\/\/schema.org","@type":"Article","name":"\u82e6\u74dc\u548c\u5c1a\u756b\u8a9e\u9304","url":"https:\/\/zh.wikisource.org\/wiki\/%E8%8B%A6%E7%93%9C%E5%92%8C%E5%B0%9A%E7%95%AB%E8%AA%9E%E9%8C%84","sameAs":"http:\/\/www.wikidata.org\/entity\/Q10426916","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q10426916","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2009-11-13T11:00:12Z","dateModified":"2018-08-23T14:12:53Z"}
-
