@@ -1,0 +1,50 @@
+[
+  {
+    "file": "early-detail-near.jpg",
+    "source": "图1",
+    "box_xyxy_original_pixels": [
+      450,
+      2100,
+      1200,
+      2839
+    ],
+    "operation": "矩形裁切；无补绘，无AI，JPEG质量95",
+    "sha256": "4b7e4fae19c0862db90b569337aee65c95910120673b372d7486dc0298394748"
+  },
+  {
+    "file": "early-detail-valley.jpg",
+    "source": "图1",
+    "box_xyxy_original_pixels": [
+      650,
+      1100,
+      1450,
+      1890
+    ],
+    "operation": "矩形裁切；无补绘，无AI，JPEG质量95",
+    "sha256": "723b3058815b60b7e7671abb907f7b28bcaf5ce1dae81f90a10d41d710009c5d"
+  },
+  {
+    "file": "early-detail-peak.jpg",
+    "source": "图1",
+    "box_xyxy_original_pixels": [
+      600,
+      100,
+      1450,
+      938
+    ],
+    "operation": "矩形裁切；无补绘，无AI，JPEG质量95",
+    "sha256": "04680a62bf9494bdc0e4092b858aeef8cb3f286893bacd15e9a2d31f70cbe0af"
+  },
+  {
+    "file": "fan-travelers.jpg",
+    "source": "图3",
+    "box_xyxy_original_pixels": [
+      1800,
+      4600,
+      2780,
+      5250
+    ],
+    "operation": "矩形裁切；无补绘，无AI，JPEG质量95",
+    "sha256": "c7cbe1a9def118ebf12c1b8fe918ce8c160ec438c8bd1cf73b9eab64de6fdb45"
+  }
+]
