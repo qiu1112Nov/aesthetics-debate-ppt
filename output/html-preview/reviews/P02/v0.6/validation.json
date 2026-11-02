@@ -1,0 +1,335 @@
+{
+  "page": "P02",
+  "version": "P02-v0.6-draft",
+  "status": "待审核",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "geometry": {
+    "text": [
+      {
+        "text": "一辩·开场 / 问题提出",
+        "size": 48,
+        "x": 104,
+        "y": 40,
+        "w": 1712,
+        "h": 62.390625,
+        "bottom": 102.390625,
+        "horizontal": false
+      },
+      {
+        "text": "同一座山，体验为何随身体位置改变？",
+        "size": 76,
+        "x": 104,
+        "y": 114.390625,
+        "w": 1712,
+        "h": 91.1875,
+        "bottom": 205.578125,
+        "horizontal": false
+      },
+      {
+        "text": "视线",
+        "size": 48,
+        "x": 1020,
+        "y": 296,
+        "w": 96.015625,
+        "h": 70,
+        "bottom": 366,
+        "horizontal": false
+      },
+      {
+        "text": "山脚 · 仰望",
+        "size": 52,
+        "x": 104,
+        "y": 492,
+        "w": 544,
+        "h": 70.1875,
+        "bottom": 562.1875,
+        "horizontal": false
+      },
+      {
+        "text": "身处山下，向上观看，感受到山体的高大。",
+        "size": 48,
+        "x": 104,
+        "y": 574.1875,
+        "w": 544,
+        "h": 134.375,
+        "bottom": 708.5625,
+        "horizontal": false
+      },
+      {
+        "text": "向上观看",
+        "size": 48,
+        "x": 344.015625,
+        "y": 572.1875,
+        "w": 192.015625,
+        "h": 70,
+        "bottom": 642.1875,
+        "horizontal": false
+      },
+      {
+        "text": "山中 · 行走",
+        "size": 52,
+        "x": 1370,
+        "y": 492,
+        "w": 446,
+        "h": 70.1875,
+        "bottom": 562.1875,
+        "horizontal": false
+      },
+      {
+        "text": "进入山谷与山体之间，随着行走感受到空间的幽深与层次。",
+        "size": 48,
+        "x": 1370,
+        "y": 574.1875,
+        "w": 446,
+        "h": 201.5625,
+        "bottom": 775.75,
+        "horizontal": false
+      },
+      {
+        "text": "山顶 · 远眺",
+        "size": 52,
+        "x": 1220,
+        "y": 254,
+        "w": 596,
+        "h": 70.1875,
+        "bottom": 324.1875,
+        "horizontal": false
+      },
+      {
+        "text": "视野向远处展开，感受到空间的开阔与延伸。",
+        "size": 48,
+        "x": 1220,
+        "y": 336.1875,
+        "w": 596,
+        "h": 134.375,
+        "bottom": 470.5625,
+        "horizontal": false
+      },
+      {
+        "text": "身体位置改变了观看方向，也改变了空间被感知的方式。固定视点下的视觉真实，并不能穷尽人的空间体验。",
+        "size": 48,
+        "x": 104,
+        "y": 800,
+        "w": 1712,
+        "h": 148.375,
+        "bottom": 948.375,
+        "horizontal": false
+      },
+      {
+        "text": "一辩·开场",
+        "size": 48,
+        "x": 104,
+        "y": 986,
+        "w": 240.015625,
+        "h": 62.390625,
+        "bottom": 1048.390625,
+        "horizontal": false
+      },
+      {
+        "text": "P02 / 22",
+        "size": 48,
+        "x": 1638.734375,
+        "y": 986,
+        "w": 177.265625,
+        "h": 62.390625,
+        "bottom": 1048.390625,
+        "horizontal": false
+      }
+    ],
+    "notes": [
+      {
+        "x": 104,
+        "y": 492,
+        "w": 544,
+        "h": 216.5625,
+        "bottom": 708.5625
+      },
+      {
+        "x": 1370,
+        "y": 492,
+        "w": 446,
+        "h": 283.75,
+        "bottom": 775.75
+      },
+      {
+        "x": 1220,
+        "y": 254,
+        "w": 596,
+        "h": 216.5625,
+        "bottom": 470.5625
+      }
+    ],
+    "core": {
+      "x": 104,
+      "y": 800,
+      "w": 1712,
+      "h": 148.375,
+      "bottom": 948.375
+    },
+    "footer": {
+      "x": 0,
+      "y": 968,
+      "w": 1920,
+      "h": 112,
+      "bottom": 1080
+    },
+    "observers": [
+      {
+        "id": "p02-observer-foot",
+        "ground": "665,764"
+      },
+      {
+        "id": "p02-observer-valley",
+        "ground": "1108,634"
+      },
+      {
+        "id": "p02-observer-summit",
+        "ground": "930,368"
+      }
+    ]
+  },
+  "local_checks": {
+    "phrase": "向上观看",
+    "rects": [
+      {
+        "x": 344.015625,
+        "y": 572.1875,
+        "w": 192.015625,
+        "h": 70
+      }
+    ],
+    "footText": "身处山下，向上观看，感受到山体的高大。",
+    "core": "身体位置改变了观看方向，也改变了空间被感知的方式。固定视点下的视觉真实，并不能穷尽人的空间体验。",
+    "gazeLabel": "视线",
+    "gazeStyle": "none",
+    "walkingPath": "M1010 739C1026 698 1062 655 1108 634C1140 613 1142 585 1176 555",
+    "walkingDash": "12px, 10px"
+  },
+  "minimum_text_px": 48,
+  "planned_ppt_mapping": "13 1/3 x 7.5 inches: 48px = 24pt; 76px = 38pt",
+  "other_slide_pixels_identical": {
+    "P01": true,
+    "P03": true,
+    "P04": true,
+    "P05": true,
+    "P06": true,
+    "P07": true,
+    "P08": true,
+    "P09": true,
+    "P10": true,
+    "P11": true,
+    "P12": true,
+    "P13": true,
+    "P14": true,
+    "P15": true,
+    "P16": true,
+    "P17": true,
+    "P18": true,
+    "P19": true,
+    "P20": true,
+    "P21": true,
+    "P22": true
+  },
+  "other_files_sha256_unchanged": {
+    "styles.css": true,
+    "app.js": true,
+    "p02-v0.5.css": true,
+    "pages/P01.html": true,
+    "pages/P03.html": true,
+    "pages/P04.html": true,
+    "pages/P05.html": true,
+    "pages/P06.html": true,
+    "pages/P07.html": true,
+    "pages/P08.html": true,
+    "pages/P09.html": true,
+    "pages/P10.html": true,
+    "pages/P11.html": true,
+    "pages/P12.html": true,
+    "pages/P13.html": true,
+    "pages/P14.html": true,
+    "pages/P15.html": true,
+    "pages/P16.html": true,
+    "pages/P17.html": true,
+    "pages/P18.html": true,
+    "pages/P19.html": true,
+    "pages/P20.html": true,
+    "pages/P21.html": true,
+    "pages/P22.html": true,
+    "screenshots/P01.png": true,
+    "screenshots/P03.png": true,
+    "screenshots/P04.png": true,
+    "screenshots/P05.png": true,
+    "screenshots/P06.png": true,
+    "screenshots/P07.png": true,
+    "screenshots/P08.png": true,
+    "screenshots/P09.png": true,
+    "screenshots/P10.png": true,
+    "screenshots/P11.png": true,
+    "screenshots/P12.png": true,
+    "screenshots/P13.png": true,
+    "screenshots/P14.png": true,
+    "screenshots/P15.png": true,
+    "screenshots/P16.png": true,
+    "screenshots/P17.png": true,
+    "screenshots/P18.png": true,
+    "screenshots/P19.png": true,
+    "screenshots/P20.png": true,
+    "screenshots/P21.png": true,
+    "screenshots/P22.png": true,
+    "confirmed/P01/v0.6/index.html": true,
+    "confirmed/P01/v0.6/README.md": true,
+    "confirmed/P01/v0.6/confirmation.json": true,
+    "confirmed/P01/v0.6/qa-at-review.json": true,
+    "confirmed/P01/v0.6/P01-1920x1080.png": true,
+    "confirmed/P01/v0.6/source/p01-v0.5.css": true,
+    "confirmed/P01/v0.6/source/styles.css": true,
+    "confirmed/P01/v0.6/source/p01-v0.6.css": true,
+    "confirmed/P01/v0.6/source/app.js": true,
+    "confirmed/P01/v0.6/source/assets/early-spring.jpg": true,
+    "confirmed/P01/v0.6/source/pages/P01.html": true,
+    "confirmed/P01/v0.6/source/assets/fonts/LICENSE.txt": true,
+    "confirmed/P01/v0.6/source/assets/fonts/PreviewSansSC.woff": true,
+    "confirmed/P01/v0.6/source/assets/fonts/PreviewSerifSC.woff": true
+  },
+  "confirmed_P01_manifest": "PASS",
+  "mobile": [
+    {
+      "viewport": 390,
+      "width": 390,
+      "slide": {
+        "x": 0,
+        "y": 246.3125,
+        "width": 390,
+        "height": 219.375,
+        "top": 246.3125,
+        "right": 390,
+        "bottom": 465.6875,
+        "left": 0
+      }
+    },
+    {
+      "viewport": 844,
+      "width": 844,
+      "slide": {
+        "x": 167.77777099609375,
+        "y": 0,
+        "width": 508.4444580078125,
+        "height": 286,
+        "top": 0,
+        "right": 676.2222290039062,
+        "bottom": 286,
+        "left": 167.77777099609375
+      }
+    }
+  ],
+  "js_errors": [],
+  "font_glyphs": "PASS",
+  "diagram": "自绘教学示意；无历史原作或实测地形声明",
+  "terrain_path_geometry_unchanged": true,
+  "observer_transforms_unchanged": true,
+  "core_judgment_unchanged": true,
+  "self_contained_export": "PASS: single P02, embedded resources, pixels identical to PNG"
+}

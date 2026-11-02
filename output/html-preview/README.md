@@ -1,6 +1,6 @@
 # 《从观看山水到栖居山水》22页内容深化稿
 
-> 当前单页：**P02-v0.5待审核**。[P02完整HTML](reviews/P02/v0.5/index.html)｜[P02高清PNG](reviews/P02/v0.5/P02-1920x1080.png)｜[排版与论证说明](reviews/P02/v0.5/排版与论证说明.md)。仅P02更新，P01确认版及P03—P22不变；整套ZIP／总览仍为旧批次快照。
+> 当前单页：**P02-v0.6待审核**。[P02完整HTML](reviews/P02/v0.6/index.html)｜[P02高清PNG](reviews/P02/v0.6/P02-1920x1080.png)｜[排版与论证说明](reviews/P02/v0.6/排版与论证说明.md)。仅P02更新，P01确认版及P03—P22不变；整套ZIP／总览仍为旧批次快照。
 
 > **P01-v0.6已视觉确认并冻结。** [最终确认HTML](confirmed/P01/v0.6/index.html)｜[确认版高清PNG](confirmed/P01/v0.6/P01-1920x1080.png)。已确认1／22，P02—P22待审核；暂不开始P02，不启动PPTX。[视觉参考规范](../../materials/P01已确认视觉参考.md)。下文ZIP与整套总览仍为v0.4历史批次快照。
 
