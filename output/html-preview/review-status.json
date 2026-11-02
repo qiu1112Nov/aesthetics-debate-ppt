@@ -25,10 +25,15 @@
     "source": "",
     "basis": "一辩正文06—10、20—23：同山不同身体位置带来不同经验；非单纯客观物象决定审美。",
     "take": "空间审美还须解释身体如何参与感知。",
-    "version": "P02-v0.6-draft",
-    "status": "待审核",
-    "confirmed": false,
-    "revision_note": "只精炼山脚正文，保护“向上观看”不拆行；山顶实线箭头标明“视线”，保留谷径虚线及两句判断"
+    "version": "P02-v0.6-confirmed",
+    "status": "已确认",
+    "confirmed": true,
+    "revision_note": "用户已明确视觉确认，冻结v0.6；禁止覆盖，P03等待指令",
+    "confirmation_quote": "P02视觉确认。",
+    "confirmation_date": "2026-11-02",
+    "frozen_html": "confirmed/P02/v0.6/index.html",
+    "frozen_png": "confirmed/P02/v0.6/P02-1920x1080.png",
+    "confirmation_record": "confirmed/P02/v0.6/confirmation.json"
   },
   {
     "id": "P03",
