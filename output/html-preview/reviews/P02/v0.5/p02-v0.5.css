@@ -1,0 +1,14 @@
+@font-face{font-family:'P02 Sans SC';src:url('assets/fonts/P02-v05-SansSC.woff') format('woff');font-weight:400;font-display:block}
+@font-face{font-family:'P02 Serif SC';src:url('assets/fonts/P02-v05-SerifSC.woff') format('woff');font-weight:400;font-display:block}
+#P02{font-family:'P02 Sans SC','Noto Sans CJK SC',sans-serif;font-size:48px;color:#343C38;background:#F3F0E8}
+#P02 header{z-index:2}#P02 header h1{font-family:'P02 Serif SC','Noto Serif CJK SC',serif;font-size:76px;font-weight:600;line-height:1.2;white-space:nowrap}
+#P02 #p02-terrain{position:absolute;inset:0;width:1920px;height:1080px;z-index:0;pointer-events:none}
+#P02 .p02-note{position:absolute;z-index:1;background:transparent}
+#P02 .p02-note h2{font-family:'P02 Serif SC','Noto Serif CJK SC',serif;font-size:52px;font-weight:600;line-height:1.35;color:#A05C4A;margin:0 0 12px}
+#P02 .p02-note p{font-size:48px;font-weight:400;line-height:1.4;margin:0}
+#P02 .p02-foot{left:104px;top:492px;width:544px}
+#P02 .p02-valley{left:1370px;top:492px;width:446px}
+#P02 .p02-summit{left:1220px;top:254px;width:596px}
+#P02 .p02-core{position:absolute;left:104px;right:104px;top:800px;margin:0;padding-top:12px;border-top:2px solid #A05C4A;font-size:48px;line-height:1.4;z-index:1}
+#P02 footer{left:0;right:0;bottom:0;height:112px;padding:18px 104px 24px;border-top:0;background:#F3F0E8;align-items:baseline;z-index:2;font-size:48px}
+#P02 footer::before{content:"";position:absolute;top:0;left:104px;right:104px;border-top:1px solid #B6BCB1}

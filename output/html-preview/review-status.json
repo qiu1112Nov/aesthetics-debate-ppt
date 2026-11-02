@@ -20,14 +20,15 @@
   {
     "id": "P02",
     "title": "同一座山，体验为何随身体位置改变？",
-    "chapter": "问题提出",
+    "chapter": "一辩·开场 / 问题提出",
     "speaker": "一辩",
     "source": "",
-    "basis": "一辩06—10、20—23",
+    "basis": "一辩正文06—10、20—23：同山不同身体位置带来不同经验；非单纯客观物象决定审美。",
     "take": "空间审美还须解释身体如何参与感知。",
-    "version": "v0.4-draft",
+    "version": "P02-v0.5-draft",
     "status": "待审核",
-    "confirmed": false
+    "confirmed": false,
+    "revision_note": "单页叙事重构：中央连续山体、山脚仰望／谷径行走／山顶远眺，三个完整解释区及两句核心判断"
   },
   {
     "id": "P03",

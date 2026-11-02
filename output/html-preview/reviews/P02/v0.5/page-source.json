@@ -1,0 +1,28 @@
+{
+  "page": "P02",
+  "version": "P02-v0.5-draft",
+  "html_fragment": "P02-fragment.html",
+  "css": "../../../p02-v0.5.css",
+  "diagram": "../../../assets/p02-terrain-v0.5.svg",
+  "body_font_px": 48,
+  "title_font_px": 76,
+  "observer_ground_contacts": {
+    "foot": [
+      665,
+      764
+    ],
+    "valley": [
+      1108,
+      634
+    ],
+    "summit": [
+      930,
+      368
+    ]
+  },
+  "lecture_basis": [
+    "一辩06—10",
+    "一辩20—23"
+  ],
+  "confirmed": false
+}
