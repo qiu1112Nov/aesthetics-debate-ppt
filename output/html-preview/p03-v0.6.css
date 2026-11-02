@@ -1,0 +1,23 @@
+/* P03-v0.6: hierarchy only; all text and argument order are retained. */
+#P03 header{padding-bottom:0;border-bottom:0}
+#P03 header .eyebrow{line-height:1.15}
+#P03 header h1{font-size:84px;font-weight:700;line-height:1.1}
+#P03 .p03-opening{top:210px;font-size:52px;font-weight:400;line-height:1.15;opacity:.86;border-bottom:1px solid #B6BCB1;padding-bottom:10px}
+#P03 .p03-side-head{top:288px;height:120px;grid-template-columns:310px 338px}
+#P03 .p03-right-head{grid-template-columns:310px 338px}
+#P03 .p03-side-head h2{font-size:68px;font-weight:600;line-height:1}
+#P03 .p03-side-head p{font-size:48px;font-weight:400;line-height:1;margin-top:4px;opacity:.8}
+#P03 .p03-side-head svg{height:120px}
+#P03 .p03-row{border-top:0}
+#P03 .p03-row p{font-size:48px;line-height:1.3;font-weight:400}
+#P03 .p03-comparisons::before{content:"";position:absolute;top:12px;bottom:12px;left:50%;width:1px;background:#B6BCB1;opacity:.7}
+#P03 .p03-dimension{position:relative;z-index:1;background:#F3F0E8;border-left:0;border-right:0}
+#P03 .p03-dimension b{font-size:48px;font-weight:500;line-height:1}
+#P03 .p03-dimension h3{font-size:52px;font-weight:600;line-height:1.15}
+#P03 .p03-key{font-size:inherit;font-weight:600;color:#A05C4A}
+#P03 .p03-judgment{top:830px;display:block;padding-top:8px}
+#P03 .p03-judgment-lead{display:flex;align-items:baseline;gap:28px}
+#P03 .p03-judgment-lead h2{font-family:'P03 Sans SC','Noto Sans CJK SC',sans-serif;font-size:48px;font-weight:600;line-height:1.05;padding:0 12px;background:rgba(164,177,160,.16)}
+#P03 .p03-judgment-lead p{font-size:48px;font-weight:400;line-height:1.05;white-space:nowrap}
+#P03 .p03-judgment-main{font-size:52px;line-height:1.15;margin-top:2px;white-space:nowrap}
+#P03 .p03-judgment-main strong{font-size:inherit;font-weight:700;color:#A05C4A}

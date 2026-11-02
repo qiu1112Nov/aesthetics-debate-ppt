@@ -1,0 +1,14 @@
+{
+  "page": "P03",
+  "version": "P03-v0.6-draft",
+  "html_fragment": "P03-fragment.html",
+  "styles": [
+    "../../../styles.css",
+    "../../../p03-v0.5.css",
+    "../../../p03-v0.6.css"
+  ],
+  "theory": "../v0.5/论证与理论依据.md",
+  "materials": "../v0.5/素材来源.md",
+  "content_changed": false,
+  "confirmed": false
+}

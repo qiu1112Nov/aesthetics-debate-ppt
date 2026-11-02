@@ -1,0 +1,30 @@
+{
+  "page": "P01",
+  "design_version": "v0.6",
+  "status": "已确认",
+  "confirmed": true,
+  "confirmation_quote": "P01视觉确认。",
+  "confirmation_message_locator": "本聊天最新用户消息，以“P01视觉确认。”开头，要求保存最终确认版并暂不开始P02",
+  "confirmation_date": "2026-11-02",
+  "recorded_at_utc_plus_08": "2026-11-02T18:53:30+08:00",
+  "time_note": "工具校时后的记录时间，不冒称为平台消息精确发送时间戳",
+  "source_commit": "da9c46ad60de81a2013677a22dce50eab0076f7d",
+  "source_candidate": "output/html-preview/reviews/P01/v0.6/",
+  "immutable_policy": "禁止覆盖；重开修改必须新版本并另获用户确认",
+  "pptx_status": "未制作；本次视觉确认不授权PPTX或P02",
+  "files_sha256": {
+    "P01-1920x1080.png": "20364bd302973341f65641810e8ee12c7d0c08aa512ba7b26eeefd216583a1c9",
+    "README.md": "b33ae02b9b00f08ae30bb4b5f912873c6bcb2815df40b1892f708183ac48f535",
+    "index.html": "14fb554ec2fcd41449f61550730187a2458af53871ff033bdd84caf4aece6087",
+    "qa-at-review.json": "a716e5a606e4bc2ce0a55dc82edbefab6a1f350c77069dbcdf2296ee16d0acec",
+    "source/app.js": "0f3fd2644a9998ebcce0c7284f57a4992b3b6dcba2a208254c36a13ccc0721b4",
+    "source/assets/early-spring.jpg": "581b6735d9fa30bad46aa1424ea926632725b381e0310ff3256f429bed444b4e",
+    "source/assets/fonts/LICENSE.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+    "source/assets/fonts/PreviewSansSC.woff": "02cc61260ceeb6543453cb56e2bd4c60b6208870edb099e22057a06fda648073",
+    "source/assets/fonts/PreviewSerifSC.woff": "201c2d8eba21bf7658a07d71d195508c26de7fd43dd4ac8cde786238ffdb51b9",
+    "source/p01-v0.5.css": "b33df2721e81e1f2e349ace6df215fee3b5832effbe17eed8c4f270e6cc4aec6",
+    "source/p01-v0.6.css": "9f0d906e0f4e8c23cf1e3ac4b93f836ac83038488db4425a2b8f3715235c2ff1",
+    "source/pages/P01.html": "27713ff79d1b40cfb87402d67975f16f1c528508e118737b3e37e0a704ea944b",
+    "source/styles.css": "d10146934a4b07684776c713d39e8173ad989860d5d169854313d4b98f31f6c7"
+  }
+}

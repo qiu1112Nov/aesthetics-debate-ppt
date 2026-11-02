@@ -1,0 +1,5 @@
+/* P01-v0.6: natural single-line title/thesis and an explicit footer baseline. */
+#P01 .cover-copy h1{white-space:nowrap;margin-top:100px;margin-bottom:36px}
+#P01 .cover-statement{white-space:nowrap;font-weight:400}
+#P01 .cover-statement strong{font-weight:700;color:var(--ink)}
+#P01 footer{align-items:baseline}

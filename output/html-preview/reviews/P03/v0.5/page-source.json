@@ -1,0 +1,18 @@
+{
+  "page": "P03",
+  "version": "P03-v0.5-draft",
+  "html_fragment": "P03-fragment.html",
+  "css": "../../../p03-v0.5.css",
+  "diagrams": [
+    "../../../assets/p03-perspective-v0.5.svg",
+    "../../../assets/p03-roaming-v0.5.svg"
+  ],
+  "confirmed": false,
+  "lecture_basis": [
+    "一辩12—17",
+    "一辩20—26",
+    "一辩36—40",
+    "二辩37—45",
+    "三辩14—18、46—48"
+  ]
+}

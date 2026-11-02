@@ -1,0 +1,62 @@
+{
+  "unmodified_pages": "P03/P04/P05/P06 DOM identical and screenshot pixels identical to pre-task working tree",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "intended_ppt_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "source_px_to_ppt_pt": 0.5,
+  "minimum_font_px": 48,
+  "minimum_equivalent_ppt_pt": 24,
+  "title_equivalent_ppt_pt": 46,
+  "font_details": [
+    {
+      "tag": "P",
+      "cls": "eyebrow",
+      "font_px": 48,
+      "text": "课程辩论 / 空间美学"
+    },
+    {
+      "tag": "H1",
+      "cls": "",
+      "font_px": 92,
+      "text": "从观看山水到栖居山水"
+    },
+    {
+      "tag": "P",
+      "cls": "subtitle",
+      "font_px": 52,
+      "text": "“身即”与“透视”的空间美学之辩"
+    },
+    {
+      "tag": "P",
+      "cls": "cover-position",
+      "font_px": 48,
+      "text": "我方立场 身即"
+    },
+    {
+      "tag": "EM",
+      "cls": "",
+      "font_px": 52,
+      "text": "身即"
+    },
+    {
+      "tag": "FIGCAPTION",
+      "cls": "",
+      "font_px": 48,
+      "text": "郭熙《早春图》局部1072年 · [图1]"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "font_px": 48,
+      "text": "P01"
+    }
+  ],
+  "mobile": "390x844 / 844x390 browser simulation: fit and zoom passed; no physical device or projector test",
+  "javascript_errors": [],
+  "review_status": "待用户P01视觉确认；未确认；未转换PPTX"
+}

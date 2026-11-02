@@ -1,0 +1,37 @@
+<svg id="p02-terrain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="p02-svg-title p02-svg-desc">
+<title id="p02-svg-title">同一山体中山脚、谷径与山顶的三种观察位置</title><desc id="p02-svg-desc">自绘空间示意，非历史山水作品。观察者双脚分别落在近景台地、谷径与山顶平台，实线表示视线，虚线表示行走路径。</desc>
+<defs><marker id="p02-look-tip" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="4" markerHeight="4" orient="auto"><path d="M1 1L11 6L1 11Z" fill="#A05C4A"/></marker></defs>
+<style>
+#p02-terrain .far{fill:#A4B1A0;fill-opacity:.24;stroke:#A4B1A0;stroke-width:2}
+#p02-terrain .mass{fill:#A4B1A0;fill-opacity:.57;stroke:#343C38;stroke-width:3;stroke-linejoin:round}
+#p02-terrain .face{fill:#343C38;fill-opacity:.10;stroke:none}
+#p02-terrain .front{fill:#A4B1A0;fill-opacity:.8;stroke:#343C38;stroke-width:3;stroke-linejoin:round}
+#p02-terrain .strata{fill:none;stroke:#343C38;stroke-opacity:.44;stroke-width:2.5;stroke-linecap:round}
+#p02-terrain .light-strata{fill:none;stroke:#F3F0E8;stroke-width:3;stroke-opacity:.8}
+#p02-terrain .road-bed{fill:none;stroke:#F3F0E8;stroke-width:22;stroke-linecap:round}
+#p02-terrain .walk{fill:none;stroke:#A05C4A;stroke-width:5;stroke-dasharray:12 10;stroke-linecap:round;marker-end:url(#p02-look-tip)}
+#p02-terrain .look{fill:none;stroke:#A05C4A;stroke-width:5;stroke-linecap:round;marker-end:url(#p02-look-tip)}
+#p02-terrain .leader{fill:none;stroke:#A4B1A0;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+#p02-terrain .observer{fill:#343C38;stroke:#343C38;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+#p02-terrain .observer path{fill:none}#p02-terrain .profile{stroke-width:3}
+</style>
+<!-- Far folds establish recession, rather than an unrelated second mountain. -->
+<path id="p02-far-folds" class="far" d="M674 684C715 641 743 593 788 579Q821 567 847 536L875 510Q900 519 919 503L959 467Q975 458 1000 476L1025 492Q1050 483 1072 463L1092 443Q1112 430 1136 449L1155 468Q1174 465 1194 487L1217 520Q1243 534 1266 564L1290 610Q1322 641 1343 696L1352 767L675 785Z"/>
+<path class="strata" d="M1092 443Q1080 494 1112 531M1194 487Q1170 523 1188 556M1000 476Q1010 521 1054 548"/>
+<!-- One main massif, with curved ridges, shelves and an inner valley. -->
+<path id="p02-main-massif" class="mass" d="M600 775Q626 734 643 690C657 656 669 620 696 594L718 550Q732 521 754 510L782 466Q800 443 826 451L854 416Q871 398 890 391L908 374Q918 365 930 368Q947 366 959 384L975 418Q994 439 1004 471L1028 499Q1048 524 1055 550L1083 580Q1102 602 1112 633L1137 677Q1161 697 1177 732L1211 780Z"/>
+<path class="face" d="M930 368Q955 428 946 475L983 537Q975 586 1016 638L1058 717L1080 781H951L918 673Q934 624 899 566L904 497Q892 439 930 368Z"/>
+<path class="strata" d="M908 374Q897 413 866 439L842 476Q806 497 798 537L767 571Q741 603 727 649M959 384Q949 439 958 478L982 518Q992 552 1006 573M826 451L827 495Q857 535 841 579L859 615M696 594Q740 591 777 621L792 662M890 391Q869 471 881 521L903 563Q922 611 907 648L932 692M975 646Q1005 679 1013 715"/>
+<path class="light-strata" d="M854 416Q834 468 812 478M780 588Q762 629 755 671M928 538Q953 582 948 623"/>
+<!-- Inner valley and walkable path; the middle observer is on the path at (1108,634). -->
+<path id="p02-valley" class="far" d="M1030 746Q1061 702 1093 658Q1106 641 1108 634Q1136 615 1146 585L1176 555Q1210 562 1235 605L1268 657Q1283 685 1320 703L1338 780H1024Z"/>
+<path id="p02-valley-path" class="road-bed" d="M1010 739C1026 698 1062 655 1108 634C1140 613 1142 585 1176 555"/>
+<path class="walk" d="M1010 739C1026 698 1062 655 1108 634C1140 613 1142 585 1176 555"/>
+<!-- Foreground terrace; the foot observer stands at its explicit surface point (665,764). -->
+<path id="p02-front-terrace" class="front" d="M555 790Q587 776 621 772Q644 764 665 764Q687 764 707 744Q731 724 755 733L790 758Q816 766 846 752Q866 741 889 755L920 781Q944 782 969 766L992 752Q1016 753 1041 773L1067 790Z"/>
+<path class="strata" d="M623 787Q669 779 704 771M739 752L758 782M819 784L844 771M952 787L982 771"/>
+<!-- Only two lines of sight and one walking path. -->
+<path id="p02-look-up" class="look" d="M679 700L900 425"/>
+<path id="p02-look-out" class="look" d="M946 304L1174 304"/>
+<path class="leader" d="M624 735H643L650 750M1133 640H1344V624H1354M951 371H1170V382H1196"/>
+<g id="p02-observer-foot" class="observer" transform="translate(665 764)" data-ground="665,764"><circle cx="0" cy="-64" r="10"/><path d="M0 -50L0 -25M0 -46L-17 -31M0 -45L20 -33M0 -25L-14 0M0 -25L15 0"/><path class="profile" d="M8 -66L16 -62L8 -59"/></g><g id="p02-observer-valley" class="observer" transform="translate(1108 634)" data-ground="1108,634"><circle cx="0" cy="-64" r="10"/><path d="M0 -50L0 -25M0 -46L-17 -31M0 -45L20 -33M0 -25L-14 0M0 -25L15 0"/><path class="profile" d="M8 -66L16 -62L8 -59"/></g><g id="p02-observer-summit" class="observer" transform="translate(930 368)" data-ground="930,368"><circle cx="0" cy="-64" r="10"/><path d="M0 -50L0 -25M0 -46L-17 -31M0 -45L20 -33M0 -25L-14 0M0 -25L15 0"/><path class="profile" d="M8 -66L16 -62L8 -59"/></g></svg>

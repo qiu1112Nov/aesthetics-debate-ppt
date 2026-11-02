@@ -1,0 +1,29 @@
+{
+  "version": "P01-v0.5-draft",
+  "status": "待审核，未确认",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "previous_version": "../v0.4-baseline/index.html and before.html/png",
+  "design_decisions": [
+    "保留左右构图、原作、字级、配色与既有细线",
+    "右图可见区域结束y936；图注结束y912；全宽页脚y968至1080",
+    "左侧仅微调组间距；没有改变标题字距或原文"
+  ],
+  "files": {
+    "P01-1920x1080.png": "710e398d83ebd74087823591662ce594dc8e2b34ad0ec68ed8ed63fb710d39ab",
+    "README.md": "42cc0dffb41f96a0bb2826527a470716a597f2f8d79a9c920d5a211371c444fe",
+    "after.png": "710e398d83ebd74087823591662ce594dc8e2b34ad0ec68ed8ed63fb710d39ab",
+    "before-state.json": "31a0402ade484a0a383299b490e941e7d7a75c18c2e2458c596f6b3f6992a993",
+    "before.html": "c3c3af2b315349564f72f0f16156c824d212b8be3b181142a3398b5b6c56389c",
+    "before.png": "7a8d932e0d89e88e9f87cd66243562d4745f5ab976fd7ddc24f4dce92a83b8ee",
+    "comparison-vertical.png": "0659b9975086ee05425b2bad2abbce7dff2872a8c7fa998247356db0794635ee",
+    "comparison.png": "4299c61be3dcd54cdf5f37f0857acd6e70dc38cb70da0597211a9e166f647e52",
+    "index.html": "424feded57aa52ee91f7d4389a44b18fb9c84f3a380e2882f88645c9fde3810d",
+    "validation.json": "a300238454c4a0f607196adddd10e959224d2c65798e75429087f0e2b1009d04"
+  },
+  "P02_P22": "Source HTML and PNG SHA256 unchanged; rendered pixels identical",
+  "confirmed_message": null,
+  "PPTX": "未制作"
+}

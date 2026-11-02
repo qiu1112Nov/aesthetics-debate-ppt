@@ -1,0 +1,12 @@
+{
+  "page": "P02",
+  "version": "P02-v0.6-draft",
+  "html_fragment": "P02-fragment.html",
+  "styles": [
+    "../../../styles.css",
+    "../../../p02-v0.5.css",
+    "../../../p02-v0.6.css"
+  ],
+  "diagram": "../../../assets/p02-terrain-v0.6.svg",
+  "confirmed": false
+}

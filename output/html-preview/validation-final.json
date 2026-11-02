@@ -1,0 +1,207 @@
+{
+  "result": "PASS",
+  "pages": [
+    {
+      "id": "P01",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P02",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P03",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P04",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P05",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P06",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P07",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P08",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P09",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P10",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P11",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P12",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P13",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P14",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P15",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P16",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P17",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P18",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P19",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P20",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P21",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    },
+    {
+      "id": "P22",
+      "minPx": 48,
+      "horizontal": [],
+      "outside": [],
+      "conclusionOverlaps": [],
+      "images": true
+    }
+  ],
+  "page_count": 22,
+  "single_page_entries": 22,
+  "minimum_projected_text_px": 48,
+  "planned_ppt_mapping": "13 1/3 × 7.5 inches; 48px = 24pt; PPTX object sizes not tested",
+  "fonts_loaded": true,
+  "font_subset_missing_codepoints": {
+    "PreviewSansSC.woff": [],
+    "PreviewSerifSC.woff": []
+  },
+  "desktop_navigation": "PASS: previous, jump, keyboard, thumbnail selection",
+  "local_file_entry": "Not tested: managed Chromium policy blocks file:// with net::ERR_BLOCKED_BY_ADMINISTRATOR. HTTP preview passed.",
+  "mobile_viewports": "44 page/view combinations recorded in validation.json",
+  "js_errors": [],
+  "failed_http_resources": [],
+  "limitations": [
+    "实体手机和投影待测",
+    "PPTX未制作",
+    "纸本引文及馆方元数据仍有待核项目"
+  ],
+  "version": "v0.4-draft",
+  "retained_pages_pixel_identical": {
+    "P01": true,
+    "P22": true
+  },
+  "source_docx_sha256": "5de6342ac72906d530e2e2ea79a432110788b93ab3c7c2567304798ab08803af",
+  "original_thesis_and_three_claims": "P04 literal strings verified unchanged"
+}

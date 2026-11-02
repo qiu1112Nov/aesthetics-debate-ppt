@@ -1,0 +1,29 @@
+{
+  "version": "P02-v0.6-draft",
+  "status": "待审核",
+  "confirmed": false,
+  "confirmation_quote": null,
+  "previous_version": "../v0.5/index.html; before.html/png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "changes": [
+    "仅指定山脚正文及两行断行，向上观看不拆分",
+    "山顶实线以“视线”明示，山中虚线路径保留"
+  ],
+  "files_sha256": {
+    "P02-1920x1080.png": "f0654dc371bb3cb62fbaf22b1aaa7e7542ecd318a8f141838fa95f05f938b9a4",
+    "P02-fragment.html": "c5a5d835750fab9583ab2ec46a8770105573df3ffd61a6788077b5fb486e9040",
+    "before-state.json": "e990ff1d3bd09999a653f1bcba40e79f4097534365df2e17b8ece53b768273bb",
+    "before.html": "6d17e039f9bde4e14748aee709bbf9297457552212b4374b65b8532ffc82425c",
+    "before.png": "a6c1cc7454a770da4f94d1c4bd13b61eb2f810f1418c5916f76b1e3cd1759f21",
+    "index.html": "847d2d2291bef234802af2010e691b2e58c24d86ba24219b1d9e291714d96002",
+    "page-source.json": "8c3901b9a8cb0e499623efa43ff9dd3526a4a5c763f43d986b5143ee3a6bf860",
+    "validation.json": "9045479bbc5a3f040d7a881a5a5d6c21dd056fdb1b42df361f66b24e0f41720c",
+    "排版与论证说明.md": "5966efed1e5337647c1944c7d0b0fd300a58e738ddc3260b100da027a1712717"
+  },
+  "P01": "确认版未改",
+  "P03": "未开始",
+  "PPTX": "未制作"
+}

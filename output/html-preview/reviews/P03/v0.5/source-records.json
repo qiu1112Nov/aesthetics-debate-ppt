@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Perspective | National Gallery, London",
+    "url": "https://www.nationalgallery.org.uk/paintings/glossary/perspective",
+    "http_status_observed": 200,
+    "accessed_date_utc_plus_08": "2026-11-02",
+    "short_excerpt": "all receding parallel lines appear to converge towards each other",
+    "scope": "核对典型单点线性透视，不泛化所有西方艺术",
+    "read_text_sha256": "5abf31763b8dfbe603b5ee5fc37b626b4d2fdf97ffbbda729ff0abb1d70ddac1"
+  },
+  {
+    "title": "Vanishing point | National Gallery, London",
+    "url": "https://www.nationalgallery.org.uk/paintings/glossary/vanishing-point",
+    "http_status_observed": 200,
+    "accessed_date_utc_plus_08": "2026-11-02",
+    "short_excerpt": "the position at which all receding parallel lines meet",
+    "scope": "核对进深方向消失点机制",
+    "read_text_sha256": "56462d7559cb29b84a251936163269cbfcc4841e809769ede937be97420c58e1"
+  },
+  {
+    "title": "Landscape Painting in Chinese Art | The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/landscape-painting-in-chinese-art",
+    "http_status_observed": 200,
+    "accessed_date_utc_plus_08": "2026-11-02",
+    "short_excerpt": "they are expressions of the mind and heart of the individual artists",
+    "scope": "仅核对文人山水精神表达背景，不承担多视点或优劣结论",
+    "read_text_sha256": "03327da2c727bcfe5c6a1d7d6b8a56f1e81e270350541d77caa1ec542cb1338d"
+  }
+]

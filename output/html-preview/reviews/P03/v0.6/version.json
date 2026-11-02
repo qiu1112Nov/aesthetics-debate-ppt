@@ -1,0 +1,27 @@
+{
+  "version": "P03-v0.6-draft",
+  "status": "待审核",
+  "confirmed": false,
+  "confirmation_quote": null,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "previous_version": "../v0.5/index.html and before.html/png",
+  "content_changes": false,
+  "files_sha256": {
+    "P03-1920x1080.png": "85a567a89790c9dd51541f3cff8d8cfc893d621433c9902f679fad8c94cdb50f",
+    "P03-fragment.html": "ad4a6ddeb78553c719b2c6c40321c9ae9d8a3a5596ca88f2bd4b90b00f45762e",
+    "before-state.json": "665bacafc36f670e9a2384bd6785e6d7601ce78f60d343a165dc95e7d9c350d1",
+    "before.html": "c0dda6779aa35842f1c3be595419a32618938018af7a92db691e58ae052abd5b",
+    "before.png": "231e09f65218422cf06c92fe2a44fe2ad37c09facd85b9ec13b2590187a6474d",
+    "index.html": "9c2e961feb35088741bbb6cde1832e1ca1b922f9022e6805ad097d499562d12f",
+    "p03-v0.6.css": "d0d6cea613cfc48e0858ef764ba22fe7e0cb09fb4f0cd5498634bf9a96d213f4",
+    "page-source.json": "cc2af94a829a8284556876ea0488bf4f19a101de33883806f1f79727f34ddb75",
+    "validation.json": "798d4e425445eff4513b29d2dff5a02b8beadf3d50e52ec666bb558498f6cd3f",
+    "层级调整说明.md": "9570287e42456f8aed06591620dc829ccc455dee8a095fc96a1f507c8ea7b0aa"
+  },
+  "P01_P02": "确认版及当前画面未改",
+  "P04": "未开始",
+  "PPTX": "未制作"
+}

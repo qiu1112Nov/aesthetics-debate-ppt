@@ -1,0 +1,9 @@
+/* P01-v0.5: local spacing and artwork/footer boundary only. */
+#P01 .cover-copy h1{margin-top:56px;margin-bottom:28px}
+#P01 .cover-line{margin-top:32px;margin-bottom:28px}
+#P01 .cover-position{margin-bottom:18px!important}
+#P01 .cover-statement{line-height:1.5}
+#P01 .cover-art{height:936px}
+#P01 .cover-art figcaption{bottom:24px}
+#P01 footer{left:0;right:0;bottom:0;height:112px;padding:18px 104px 24px;border-top:0;background:var(--paper);align-items:center}
+#P01 footer::before{content:"";position:absolute;top:0;left:104px;right:104px;border-top:1px solid var(--line)}

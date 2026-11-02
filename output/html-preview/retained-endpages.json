@@ -1,0 +1,29 @@
+[
+  {
+    "id": "P01",
+    "title": "从观看山水到栖居山水",
+    "chapter": "开场",
+    "speaker": "一辩",
+    "source": "图1",
+    "basis": "一辩：开场核心立场；恢复P01-v0.1构图及信息层级，按投影下限调整字号。",
+    "take": "",
+    "version": "P01-v0.6-confirmed",
+    "status": "已确认",
+    "confirmed": true,
+    "html": "<section class=\"slide page-01 cover\" id=\"P01\" aria-label=\"P01 从观看山水到栖居山水\"><div class=\"cover-copy\"><p class=\"eyebrow\"><i></i>课程辩论 / 空间美学</p><h1>从观看山水到栖居山水</h1><p class=\"subtitle\">“身即”与“透视”的空间美学之辩</p><div class=\"cover-line\"></div><p class=\"cover-position\">我方立场：<em>身即</em></p><p class=\"cover-statement\">相较于透视，身即更能实现<strong>空间审美的完整性</strong>。</p></div><figure class=\"cover-art\"><img class=\"\" src=\"assets/early-spring.jpg\" style=\"\" alt=\"郭熙早春图局部\"><figcaption>郭熙《早春图》局部<br>1072 · 台北故宫 · [图1]</figcaption></figure><footer><span>一辩·开场</span><span>P01 / 22</span></footer></section>",
+    "frozen_html": "confirmed/P01/v0.6/index.html"
+  },
+  {
+    "id": "P22",
+    "title": "从观看山水，到栖居山水",
+    "chapter": "结辩",
+    "speaker": "四辩",
+    "source": "图1",
+    "basis": "四辩：最后一句结辩陈述，原文不变。",
+    "take": "",
+    "version": "v0.3-draft",
+    "status": "待审核",
+    "confirmed": false,
+    "html": "<section class=\"slide page-22 \" id=\"P22\" aria-label=\"P22 从观看山水，到栖居山水\"><figure class=\"ending-art\"><img class=\"\" src=\"assets/early-spring.jpg\" style=\"object-position:60% 42%\" alt=\"真实馆藏山水作品\"></figure><div class=\"ending-copy\"><p class=\"eyebrow\"><i></i>结辩 / 从观看到栖居</p><h1>透视让空间<br>呈现在眼前，<br><em>而身即让生命<br>置身于山水之间。</em></h1><div class=\"cover-line\"></div><p>谢谢大家</p></div><p class=\"ending-credit\">郭熙《早春图》局部 · 台北故宫 · [图1]</p><footer><span>四辩 · 结辩</span><span>P22 / 22</span></footer></section>"
+  }
+]

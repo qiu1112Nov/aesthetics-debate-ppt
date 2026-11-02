@@ -1,0 +1,28 @@
+{
+  "version": "P01-v0.6-draft",
+  "status": "待审核，未确认",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "previous_version": "../v0.5/index.html; current before.html/png",
+  "design_decisions": [
+    "标题与核心判断各为自然单行，字号92/48px，字形未压缩",
+    "核心句前缀400，完整性短语700，句号常规字重",
+    "图注及画面沿用v0.5边界；页脚baseline对齐、左右104px"
+  ],
+  "files": {
+    "P01-1920x1080.png": "20364bd302973341f65641810e8ee12c7d0c08aa512ba7b26eeefd216583a1c9",
+    "README.md": "5e287b15ab1d4023636be35df075c6ece78134610d29e40a2579f6bc12009de9",
+    "after.png": "20364bd302973341f65641810e8ee12c7d0c08aa512ba7b26eeefd216583a1c9",
+    "before-state.json": "4c43dc06c288567cbc5bc8f42e1b62a24d45bfc88ebe9bf91d1cad010fd21f77",
+    "before.html": "424feded57aa52ee91f7d4389a44b18fb9c84f3a380e2882f88645c9fde3810d",
+    "before.png": "710e398d83ebd74087823591662ce594dc8e2b34ad0ec68ed8ed63fb710d39ab",
+    "comparison-vertical.png": "bbc1498b84dc9232f7cfbd533675eb5ed333ee598cfc1dae02c835cc46000759",
+    "comparison.png": "d4dbd5c85410f15a2b7284209e90d97fee02fec61801bdd50039a00659d35830",
+    "index.html": "14fb554ec2fcd41449f61550730187a2458af53871ff033bdd84caf4aece6087",
+    "validation.json": "a716e5a606e4bc2ce0a55dc82edbefab6a1f350c77069dbcdf2296ee16d0acec"
+  },
+  "confirmed_message": null,
+  "PPTX": "未制作"
+}

@@ -1,0 +1,31 @@
+{
+  "version": "P02-v0.5-draft",
+  "status": "待审核",
+  "confirmed": false,
+  "confirmation_quote": null,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "previous_batch": "v0.4-draft; before.html/png retained",
+  "lecture_basis": [
+    "一辩正文06—10",
+    "一辩正文20—23"
+  ],
+  "source_diagram": "assets/p02-terrain-v0.5.svg（自绘教学示意）",
+  "files_sha256": {
+    "P02-1920x1080.png": "a6c1cc7454a770da4f94d1c4bd13b61eb2f810f1418c5916f76b1e3cd1759f21",
+    "P02-fragment.html": "8e4ee98315282a58b225793956fe3493643a14637f48f068c2f8e93bca518d9b",
+    "before-state.json": "8140f2dadf7ae943eb6b94166f723d18fcafdfefc87286b2a5638db6c8d4c3d0",
+    "before.html": "90eff3e74abeb75c6ce25feb4c85b719d46c159914e944d5b7a3c01b2b8083af",
+    "before.png": "b31d0d431b8c4a286826364146e8420cddb4a7f2d34aa786b6fb9e6da87883f4",
+    "index.html": "6d17e039f9bde4e14748aee709bbf9297457552212b4374b65b8532ffc82425c",
+    "p02-v0.5.css": "48833366569fb03de43e384354a522cc6153991916b1685a9d7b37104b3a2655",
+    "page-source.json": "69de56d00b97cdb1f726167f6b919e5f8e9714fb50946c94b3323b6a6a057c89",
+    "validation.json": "b8b71d679d6ed181637127ea305e8bd4fc80fd6aeb2ba29c3dadcdbc03717282",
+    "排版与论证说明.md": "609fdea204230f9bf8d8784f3be3454d4c682334574b7bff4057c5c491ea0b40"
+  },
+  "P01": "confirmed v0.6 preserved unchanged",
+  "P03": "未开始本轮制作",
+  "PPTX": "未制作"
+}

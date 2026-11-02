@@ -1,0 +1,183 @@
+[
+  {
+    "id": "图1",
+    "file": "assets/early-spring.jpg",
+    "commons_title": "File:Guo Xi - Early Spring (large).jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:Guo_Xi_-_Early_Spring_(large).jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      1952,
+      2839
+    ],
+    "license": "Public domain",
+    "usage_terms": "Public domain",
+    "metadata_verified": true,
+    "museum_page_directly_verified": false,
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.npm.gov.tw/en/collection/selections_02.htm?docno=48&amp;catno=15\">http://www.npm.gov.tw/en/collection/selections_02.htm?docno=48&amp;catno=15</a>",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "sha256": "581b6735d9fa30bad46aa1424ea926632725b381e0310ff3256f429bed444b4e"
+  },
+  {
+    "id": "图2",
+    "file": "assets/school-of-athens.jpg",
+    "commons_title": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      3820,
+      2964
+    ],
+    "license": "Public domain",
+    "usage_terms": "Public domain",
+    "metadata_verified": true,
+    "museum_page_directly_verified": false,
+    "credit": "Stitched together from <a rel=\"nofollow\" class=\"external text\" href=\"http://mv.vatican.va/3_EN/pages/x-Schede/SDRs/SDRs_03_02_020.html\">vatican.va</a>",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "sha256": "a351b0b9c429d83e71e992df7d3a433775c37e18ac46ef6f663520b075b17ef4"
+  },
+  {
+    "id": "图3",
+    "file": "assets/fan-kuan.jpg",
+    "commons_title": "File:Fan Kuan - Travelers Among Mountains and Streams - Google Art Project.jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:Fan_Kuan_-_Travelers_Among_Mountains_and_Streams_-_Google_Art_Project.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fan_Kuan_-_Travelers_Among_Mountains_and_Streams_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      2809,
+      5633
+    ],
+    "original_dimensions": [
+      2809,
+      5633
+    ],
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/WAHwkSr8lMK0uA\">WAHwkSr8lMK0uA at Google Cultural Institute</a> maximum zoom level",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Fan_Kuan\" class=\"extiw\" title=\"w:en:Fan Kuan\"><span title=\"Chinese painter (990-1020)\">Fan Kuan</span></a></bdi>",
+    "description": null,
+    "date": "circa 1000<div style=\"display: none;\">date QS:P571,+1000-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "sha256": "f38833aefe8772e67d9ac7408506fb589b90fa91c724761dbcf6c4117200b3f6",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons原文件；页面仅CSS等比裁切",
+    "museum_page_directly_verified": false
+  },
+  {
+    "id": "图4",
+    "file": "assets/qianli-section.jpg",
+    "commons_title": "File:1c Wang Ximeng. A Thousand Li of Rivers and Mountains. (51,3x1191,5cm)1113. (section) Palace museum, Beijing.jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:1c_Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(51,3x1191,5cm)1113._(section)_Palace_museum,_Beijing.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/1c_Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%2851%2C3x1191%2C5cm%291113._%28section%29_Palace_museum%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      7646,
+      1600
+    ],
+    "original_dimensions": [
+      7646,
+      1600
+    ],
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://guoxue.zynews.com/XianFeng/2008/2202.html\">http://guoxue.zynews.com/XianFeng/2008/2202.html</a>",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Wang_Ximeng\" class=\"extiw\" title=\"w:en:Wang Ximeng\"><span title=\"Song dynasty painter (1096-1119)\">Wang Xi</span></a></bdi>",
+    "description": "Wang Ximeng, \"A Thousand Li of Rivers and Mountains\" (51,3x1191,5cm) (section, 4th part), Palace Museum, Beijing.",
+    "date": "between 1096 and 1119<div style=\"display: none;\">date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1096-00-00T00:00:00Z/9,P1326,+1119-00-00T00:00:00Z/9</div>",
+    "sha256": "5f2db3e67717139dbf67a8fe6374f225b16734b5755b3bcebbc1775c197c5ddf",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons原文件；页面仅CSS等比裁切",
+    "museum_page_directly_verified": false
+  },
+  {
+    "id": "图5",
+    "file": "assets/fuchun-scroll.jpg",
+    "commons_title": "File:富春山居圖(無用師卷).jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96(%E7%84%A1%E7%94%A8%E5%B8%AB%E5%8D%B7).jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E5%9C%96%28%E7%84%A1%E7%94%A8%E5%B8%AB%E5%8D%B7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      26134,
+      900
+    ],
+    "original_dimensions": [
+      26134,
+      900
+    ],
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.npm.gov.tw/exh100/fuchun/ch_02_1.html#t00\">http://www.npm.gov.tw/exh100/fuchun/ch_02_1.html#t00</a>",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Huang_Gongwang\" class=\"extiw\" title=\"w:en:Huang Gongwang\"><span title=\"Chinese artist (1269-1354)\">Huang Gongwang</span></a></bdi>",
+    "description": null,
+    "date": "from 1347 until 1351<div style=\"display: none;\">date QS:P571,+1350-00-00T00:00:00Z/7,P580,+1347-00-00T00:00:00Z/9,P582,+1351-00-00T00:00:00Z/9</div>",
+    "sha256": "858612be66ede18fb500a9d96bbe77a75b3b76b3888eb9a5597fd816ebfc03c5",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons原文件；页面仅CSS等比裁切",
+    "note": "无用师卷，台北故宫；替换年代元数据不符的候选图片。",
+    "museum_page_directly_verified": false
+  },
+  {
+    "id": "图6",
+    "file": "assets/shen-zhou.png",
+    "commons_title": "File:沈周卧游图册-2.png",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%E6%B2%88%E5%91%A8%E5%8D%A7%E6%B8%B8%E5%9B%BE%E5%86%8C-2.png",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/%E6%B2%88%E5%91%A8%E5%8D%A7%E6%B8%B8%E5%9B%BE%E5%86%8C-2.png/1920px-%E6%B2%88%E5%91%A8%E5%8D%A7%E6%B8%B8%E5%9B%BE%E5%86%8C-2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "dimensions": [
+      1920,
+      1499
+    ],
+    "original_dimensions": [
+      4255,
+      3322
+    ],
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://minghuaji.dpm.org.cn/paint/detail?id=ccf3f98d9f494267aaa8ac082c050db4\">https://minghuaji.dpm.org.cn/paint/detail?id=ccf3f98d9f494267aaa8ac082c050db4</a>",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Shen_Zhou\" class=\"extiw\" title=\"w:en:Shen Zhou\"><span title=\"Chinese painter (1427-1509)\">Shen Zhou</span></a></bdi>",
+    "description": null,
+    "date": null,
+    "sha256": "7036d894cb0450108b0f98dc16e271421fc46127eafa75fceae2e34b14ce60b2",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons官方缩略图",
+    "museum_page_directly_verified": false
+  },
+  {
+    "id": "图7",
+    "file": "assets/cheng-zhengkui.jpg",
+    "commons_title": "File:清 程正揆 江山臥遊圖 卷-Dream Landscape MET DP204840 CRD.jpg",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E7%A8%8B%E6%AD%A3%E6%8F%86_%E6%B1%9F%E5%B1%B1%E8%87%A5%E9%81%8A%E5%9C%96_%E5%8D%B7-Dream_Landscape_MET_DP204840_CRD.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E6%B8%85_%E7%A8%8B%E6%AD%A3%E6%8F%86_%E6%B1%9F%E5%B1%B1%E8%87%A5%E9%81%8A%E5%9C%96_%E5%8D%B7-Dream_Landscape_MET_DP204840_CRD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      1911,
+      684
+    ],
+    "original_dimensions": [
+      1911,
+      684
+    ],
+    "license": "CC0",
+    "credit": "This file was donated to Wikimedia Commons as part of a project by the <a href=\"//commons.wikimedia.org/wiki/Commons:Met\" title=\"Commons:Met\">Metropolitan Museum of Art</a>. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://metmuseum.org/about-the-met/policies-and-documents/image-resources\">Image and Data Resources Open Access Policy</a>",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Cheng_Zhengkui\" class=\"extiw\" title=\"w:en:Cheng Zhengkui\"><span title=\"Chinese artist (1604-1670)\">Chen Zhengkui</span></a></bdi>",
+    "description": "<div class=\"description\">\nChina; Handscroll; Paintings</div>",
+    "date": "dated 1674",
+    "sha256": "d4c3db8fbe69c8f38afb1cd67249f9f1547c59036de7718d57263a9ca5c3d247",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons原文件；页面仅CSS等比裁切",
+    "museum_page_directly_verified": false
+  },
+  {
+    "id": "图8",
+    "file": "assets/shitao-peaks.png",
+    "commons_title": "File:石涛搜尽奇峰图卷.png",
+    "description_url": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E6%B6%9B%E6%90%9C%E5%B0%BD%E5%A5%87%E5%B3%B0%E5%9B%BE%E5%8D%B7.png",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E7%9F%B3%E6%B6%9B%E6%90%9C%E5%B0%BD%E5%A5%87%E5%B3%B0%E5%9B%BE%E5%8D%B7.png/3840px-%E7%9F%B3%E6%B6%9B%E6%90%9C%E5%B0%BD%E5%A5%87%E5%B3%B0%E5%9B%BE%E5%8D%B7.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "dimensions": [
+      3840,
+      272
+    ],
+    "original_dimensions": [
+      74164,
+      5247
+    ],
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://minghuaji.dpm.org.cn/paint/detail?id=e07e185f66fc44238cd6d25d18d8c4d0\">https://minghuaji.dpm.org.cn/paint/detail?id=e07e185f66fc44238cd6d25d18d8c4d0</a>",
+    "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Shitao\" class=\"extiw\" title=\"w:en:Shitao\"><span title=\"Chinese painter and poet (1642-1707)\">Shitao</span></a></bdi>",
+    "description": null,
+    "date": "1691 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q116396028#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+    "sha256": "7d5b83a6d64d612093f8b5238b886871ff9d1bb604f7bc871a8bd6f9710b1dcb",
+    "accessed_date_Asia_Shanghai": "2026-11-02",
+    "derivative_note": "Commons官方缩略图",
+    "museum_page_directly_verified": false
+  }
+]

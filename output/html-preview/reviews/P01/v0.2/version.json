@@ -1,0 +1,13 @@
+{
+  "page": "P01",
+  "version": "v0.2",
+  "status": "待视觉审核，未确认",
+  "date_Asia_Shanghai": "2026-11-02",
+  "fingerprints": {
+    "P01_section_html": "b620853a031a56ca794fdf0c90a8aa009c6a1714f695fb21498172609ef6eab1",
+    "p01.css": "fa8103b143d0fa4eff77e54203e1a8690b1033c923d0a1a89d4c35c24c9d5edf",
+    "shared_styles.css": "1add510a9be4db8e9b92d2e4d626da1b643bb3c8a747d2087ba2070ca331014f",
+    "early-spring.jpg": "581b6735d9fa30bad46aa1424ea926632725b381e0310ff3256f429bed444b4e",
+    "before_index_entire_working_tree": "1f82b76eff9dfacc60490a680a9edf74498eeb212d6615c95893bf2d80310311"
+  }
+}

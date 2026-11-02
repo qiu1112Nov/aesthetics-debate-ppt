@@ -1,0 +1,4 @@
+/* P02-v0.6: two local clarifications only. */
+#P02 .p02-foot .p02-unbroken{white-space:nowrap}
+#P02 #p02-look-out{stroke-width:4;stroke-dasharray:none}
+#P02 #p02-terrain .p02-sight-label{font-family:'P02 Sans SC','Noto Sans CJK SC',sans-serif;font-size:48px;font-weight:400;fill:#A05C4A}
