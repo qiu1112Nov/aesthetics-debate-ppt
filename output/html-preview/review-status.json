@@ -7,10 +7,15 @@
     "source": "图1",
     "basis": "一辩：开场核心立场；恢复P01-v0.1构图及信息层级，按投影下限调整字号。",
     "take": "",
-    "version": "P01-v0.6-draft",
-    "status": "待审核",
-    "confirmed": false,
-    "revision_note": "标题和核心判断各完整一行；保持图注在画内与独立页脚的统一基线"
+    "version": "P01-v0.6-confirmed",
+    "status": "已确认",
+    "confirmed": true,
+    "revision_note": "用户已明确视觉确认；冻结v0.6，禁止覆盖；P02与PPTX均未获启动授权",
+    "confirmation_quote": "P01视觉确认。",
+    "confirmation_date": "2026-11-02",
+    "frozen_html": "confirmed/P01/v0.6/index.html",
+    "frozen_png": "confirmed/P01/v0.6/P01-1920x1080.png",
+    "confirmation_record": "confirmed/P01/v0.6/confirmation.json"
   },
   {
     "id": "P02",

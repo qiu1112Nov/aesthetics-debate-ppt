@@ -5,7 +5,10 @@ from threading import Thread
 from playwright.sync_api import sync_playwright
 from PIL import Image,ImageDraw
 import json
-r=Path(__file__).resolve().parent;(r/'screenshots').mkdir(exist_ok=True)
+r=Path(__file__).resolve().parent
+if (r/'review-status.json').exists() and any(x.get('confirmed') for x in json.loads((r/'review-status.json').read_text())):
+ raise SystemExit('存在已确认页：禁止批量覆盖截图；仅渲染用户授权页面，冻结目录不得写入。')
+(r/'screenshots').mkdir(exist_ok=True)
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
 srv=ThreadingHTTPServer(('127.0.0.1',8765),partial(Quiet,directory=str(r)));Thread(target=srv.serve_forever,daemon=True).start()
