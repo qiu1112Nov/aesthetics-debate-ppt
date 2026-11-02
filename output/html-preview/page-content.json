@@ -7,10 +7,11 @@
     "source": "图1",
     "basis": "一辩：开场核心立场；恢复P01-v0.1构图及信息层级，按投影下限调整字号。",
     "take": "",
-    "version": "v0.4-draft",
+    "version": "P01-v0.5-draft",
     "status": "待审核",
     "confirmed": false,
-    "html_sha256": "ad5602f466879ecd913ba9ef0145a680d383f825b9c62a307ab9d500b360d20a"
+    "html_sha256": "4ae6323e83902706b25f7cf7fb90ccd81578bcf70591516fe932e1f226ae4eba",
+    "revision_note": "仅局部间距、作品／图注与页脚边界；待审核，未确认"
   },
   {
     "id": "P02",

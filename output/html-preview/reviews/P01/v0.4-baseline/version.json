@@ -1,0 +1,16 @@
+{
+  "version": "P01-v0.4-baseline",
+  "status": "待审核，未确认",
+  "single_slide": "P01",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source_html": "output/html-preview/pages/P01.html",
+  "source_html_sha256": "f0ed8b77dfe5f36342ba11065774657bb37d63a4748e3dbe9f65d551afad9fe3",
+  "source_css_sha256": "d10146934a4b07684776c713d39e8173ad989860d5d169854313d4b98f31f6c7",
+  "source_js_sha256": "0f3fd2644a9998ebcce0c7284f57a4992b3b6dcba2a208254c36a13ccc0721b4",
+  "png_sha256": "7a8d932e0d89e88e9f87cd66243562d4745f5ab976fd7ddc24f4dce92a83b8ee",
+  "export_html_sha256": "c3c3af2b315349564f72f0f16156c824d212b8be3b181142a3398b5b6c56389c",
+  "existing_pages_and_resources_unchanged": true
+}

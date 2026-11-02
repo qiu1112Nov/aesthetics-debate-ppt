@@ -1,0 +1,228 @@
+{
+  "page": "P01",
+  "version": "P01-v0.5-draft",
+  "status": "待审核，未确认",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "planned_ppt_mapping": "48px = 24pt at 13 1/3 x 7.5 inches",
+  "rects": {
+    "art": {
+      "x": 1220,
+      "y": 0,
+      "w": 700,
+      "h": 936,
+      "bottom": 936
+    },
+    "caption": {
+      "x": 1295.328125,
+      "y": 751.21875,
+      "w": 592.671875,
+      "h": 160.78125,
+      "bottom": 912
+    },
+    "footer": {
+      "x": 0,
+      "y": 968,
+      "w": 1920,
+      "h": 112,
+      "bottom": 1080
+    },
+    "text": [
+      {
+        "text": "课程辩论 / 空间美学",
+        "size": 48,
+        "x": 104,
+        "y": 76,
+        "w": 1110,
+        "h": 62.390625,
+        "bottom": 138.390625
+      },
+      {
+        "text": "从观看山水到栖居山水",
+        "size": 92,
+        "x": 104,
+        "y": 194.390625,
+        "w": 1110,
+        "h": 253.90625,
+        "bottom": 448.296875
+      },
+      {
+        "text": "“身即”与“透视”的空间美学之辩",
+        "size": 48,
+        "x": 104,
+        "y": 476.296875,
+        "w": 1110,
+        "h": 66.234375,
+        "bottom": 542.53125
+      },
+      {
+        "text": "我方立场：身即",
+        "size": 52,
+        "x": 104,
+        "y": 604.53125,
+        "w": 1110,
+        "h": 71.75,
+        "bottom": 676.28125
+      },
+      {
+        "text": "身即",
+        "size": 52,
+        "x": 364.015625,
+        "y": 602.53125,
+        "w": 104.015625,
+        "h": 75,
+        "bottom": 677.53125
+      },
+      {
+        "text": "相较于透视，身即更能实现空间审美的完整性。",
+        "size": 48,
+        "x": 104,
+        "y": 694.28125,
+        "w": 1110,
+        "h": 144,
+        "bottom": 838.28125
+      },
+      {
+        "text": "空间审美的完整性。",
+        "size": 48,
+        "x": 104,
+        "y": 767.28125,
+        "w": 432.015625,
+        "h": 70,
+        "bottom": 837.28125
+      },
+      {
+        "text": "郭熙《早春图》局部1072 · 台北故宫 · [图1]",
+        "size": 48,
+        "x": 1295.328125,
+        "y": 751.21875,
+        "w": 592.671875,
+        "h": 160.78125,
+        "bottom": 912
+      },
+      {
+        "text": "一辩·开场",
+        "size": 48,
+        "x": 104,
+        "y": 989.796875,
+        "w": 240.015625,
+        "h": 62.390625,
+        "bottom": 1052.1875
+      },
+      {
+        "text": "P01 / 22",
+        "size": 48,
+        "x": 1638.734375,
+        "y": 989.796875,
+        "w": 177.265625,
+        "h": 62.390625,
+        "bottom": 1052.1875
+      }
+    ],
+    "footerText": "一辩·开场\nP01 / 22"
+  },
+  "unaffected_slides_pixel_identical": {
+    "P02": true,
+    "P03": true,
+    "P04": true,
+    "P05": true,
+    "P06": true,
+    "P07": true,
+    "P08": true,
+    "P09": true,
+    "P10": true,
+    "P11": true,
+    "P12": true,
+    "P13": true,
+    "P14": true,
+    "P15": true,
+    "P16": true,
+    "P17": true,
+    "P18": true,
+    "P19": true,
+    "P20": true,
+    "P21": true,
+    "P22": true
+  },
+  "unaffected_files_sha256_unchanged": {
+    "output/html-preview/styles.css": true,
+    "output/html-preview/app.js": true,
+    "output/html-preview/assets/early-spring.jpg": true,
+    "output/html-preview/pages/P02.html": true,
+    "output/html-preview/pages/P03.html": true,
+    "output/html-preview/pages/P04.html": true,
+    "output/html-preview/pages/P05.html": true,
+    "output/html-preview/pages/P06.html": true,
+    "output/html-preview/pages/P07.html": true,
+    "output/html-preview/pages/P08.html": true,
+    "output/html-preview/pages/P09.html": true,
+    "output/html-preview/pages/P10.html": true,
+    "output/html-preview/pages/P11.html": true,
+    "output/html-preview/pages/P12.html": true,
+    "output/html-preview/pages/P13.html": true,
+    "output/html-preview/pages/P14.html": true,
+    "output/html-preview/pages/P15.html": true,
+    "output/html-preview/pages/P16.html": true,
+    "output/html-preview/pages/P17.html": true,
+    "output/html-preview/pages/P18.html": true,
+    "output/html-preview/pages/P19.html": true,
+    "output/html-preview/pages/P20.html": true,
+    "output/html-preview/pages/P21.html": true,
+    "output/html-preview/pages/P22.html": true,
+    "output/html-preview/screenshots/P02.png": true,
+    "output/html-preview/screenshots/P03.png": true,
+    "output/html-preview/screenshots/P04.png": true,
+    "output/html-preview/screenshots/P05.png": true,
+    "output/html-preview/screenshots/P06.png": true,
+    "output/html-preview/screenshots/P07.png": true,
+    "output/html-preview/screenshots/P08.png": true,
+    "output/html-preview/screenshots/P09.png": true,
+    "output/html-preview/screenshots/P10.png": true,
+    "output/html-preview/screenshots/P11.png": true,
+    "output/html-preview/screenshots/P12.png": true,
+    "output/html-preview/screenshots/P13.png": true,
+    "output/html-preview/screenshots/P14.png": true,
+    "output/html-preview/screenshots/P15.png": true,
+    "output/html-preview/screenshots/P16.png": true,
+    "output/html-preview/screenshots/P17.png": true,
+    "output/html-preview/screenshots/P18.png": true,
+    "output/html-preview/screenshots/P19.png": true,
+    "output/html-preview/screenshots/P20.png": true,
+    "output/html-preview/screenshots/P21.png": true,
+    "output/html-preview/screenshots/P22.png": true
+  },
+  "mobile": [
+    {
+      "w": 390,
+      "scroll": 390,
+      "rect": {
+        "x": 0,
+        "y": 246.3125,
+        "width": 390,
+        "height": 219.375,
+        "top": 246.3125,
+        "right": 390,
+        "bottom": 465.6875,
+        "left": 0
+      }
+    },
+    {
+      "w": 844,
+      "scroll": 844,
+      "rect": {
+        "x": 167.77777099609375,
+        "y": 0,
+        "width": 508.4444580078125,
+        "height": 286,
+        "top": 0,
+        "right": 676.2222290039062,
+        "bottom": 286,
+        "left": 167.77777099609375
+      }
+    }
+  ],
+  "js_errors": [],
+  "self_contained_html": "PASS: exactly one slide; one HTTP request; rendered pixels match after.png"
+}
