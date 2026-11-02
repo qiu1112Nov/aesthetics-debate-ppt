@@ -113,12 +113,12 @@ mapdata.sort(key=lambda x:x['page'])
 (P/'argument-map.json').write_text(json.dumps(mapdata,ensure_ascii=False,indent=2))
 nav='''<nav class="controls" aria-label="演示控制"><button id="prev">← 上一页</button><label>跳转 <input id="jump" type="number" min="1" max="22" value="1" aria-label="跳转页码"></label><span id="counter">01 / 22</span><button id="next">下一页 →</button><button id="overview">总览</button><a id="single" href="pages/P01.html" target="_blank">单页</a><button id="fullscreen">全屏</button><a href="README.md">说明 / 来源</a></nav><dialog id="thumbs"><button id="close-thumbs">关闭总览</button><div class="thumb-grid"></div></dialog>'''
 def document(parts,single=False):
- p01_style='<link rel="stylesheet" href="p01-v0.5.css">' if any('id="P01"' in part for part in parts) else ''
+ p01_style='<link rel="stylesheet" href="p01-v0.5.css"><link rel="stylesheet" href="p01-v0.6.css">' if any('id="P01"' in part for part in parts) else ''
  return '<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>从观看山水到栖居山水｜22页待审核初稿</title><link rel="stylesheet" href="styles.css">'+p01_style+'</head><body'+(' data-single="true"' if single else '')+'><main class="viewer"><div class="stage">'+''.join(parts)+'</div></main>'+nav+'<script src="app.js"></script></body></html>'
 (P/'index.html').write_text(document([s['html'] for s in slides]))
 (P/'pages').mkdir(exist_ok=True)
 for s in slides:
- html=document([s['html']],True).replace('href="styles.css"','href="../styles.css"').replace('href="p01-v0.5.css"','href="../p01-v0.5.css"').replace('src="app.js"','src="../app.js"').replace('src="assets/','src="../assets/').replace('href="README.md"','href="../README.md"')
+ html=document([s['html']],True).replace('href="styles.css"','href="../styles.css"').replace('href="p01-v0.5.css"','href="../p01-v0.5.css"').replace('href="p01-v0.6.css"','href="../p01-v0.6.css"').replace('src="app.js"','src="../app.js"').replace('src="assets/','src="../assets/').replace('href="README.md"','href="../README.md"')
  (P/'pages'/f'{s["id"]}.html').write_text(html)
 (P/'review-status.json').write_text(json.dumps([{k:v for k,v in s.items() if k!='html'} for s in slides],ensure_ascii=False,indent=2))
 (P/'page-content.json').write_text(json.dumps([{**{k:v for k,v in s.items() if k!='html'},'html_sha256':hashlib.sha256(s['html'].encode()).hexdigest()} for s in slides],ensure_ascii=False,indent=2))
