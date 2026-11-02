@@ -1,0 +1,8 @@
+<svg id="p03-perspective" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 240" role="img" aria-label="单点建筑纵深示意，纵深方向的平行线汇向一个消失点">
+<style>#p03-perspective .frame{fill:none;stroke:#A4B1A0;stroke-width:4}#p03-perspective .plane{fill:#A4B1A0;fill-opacity:.18}#p03-perspective .recede{fill:none;stroke:#A05C4A;stroke-width:5}#p03-perspective .grid{fill:none;stroke:#A4B1A0;stroke-width:3}</style>
+<path class="plane" d="M30 205L590 205L380 112.75H240ZM30 10L240 64V112.75L30 205ZM590 10L380 64V112.75L590 205Z"/>
+<path class="recede" d="M30 10L310 82L590 10M30 205L310 82L590 205"/>
+<path class="frame" d="M30 10H590V205H30ZM170 46H450V143.5H170ZM240 64H380V112.75H240Z"/>
+<path class="grid" d="M109.7 170H510.3M182.5 138H437.5"/>
+<circle cx="310" cy="82" r="10" fill="#A05C4A" stroke="#F3F0E8" stroke-width="3"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="p03-roaming" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="同一山水空间中不同位置的观看经验以连续游观路径相联">
+<defs><marker id="p03-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.5" markerHeight="3.5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#A05C4A"/></marker></defs>
+<style>#p03-roaming .far{fill:#A4B1A0;fill-opacity:.25;stroke:#A4B1A0;stroke-width:3}#p03-roaming .near{fill:#A4B1A0;fill-opacity:.56;stroke:#343C38;stroke-width:3}#p03-roaming .crease{fill:none;stroke:#343C38;stroke-opacity:.4;stroke-width:3}#p03-roaming .path{fill:none;stroke:#A05C4A;stroke-width:6;stroke-dasharray:14 10;marker-end:url(#p03-arrow)}#p03-roaming .view{fill:none;stroke:#A05C4A;stroke-width:4;marker-end:url(#p03-arrow)}#p03-roaming .observer{fill:#343C38;stroke:#343C38;stroke-width:6;stroke-linecap:round}#p03-roaming .observer path{fill:none}</style>
+<path class="far" d="M213 218Q254 178 281 149L320 123Q347 130 372 106L412 70Q437 69 457 95L482 113Q512 119 536 99L561 76Q583 67 602 87L634 129Q672 143 695 182L737 218Z"/>
+<path class="near" d="M145 218Q184 195 215 153L247 110Q266 104 284 118L320 83Q345 78 361 57L389 30Q404 19 421 36L440 72Q461 98 473 124L508 155Q528 163 547 190L581 218Z"/>
+<path class="crease" d="M389 30Q384 73 365 103L385 142Q408 162 421 202M284 118Q309 136 312 174M440 72Q434 111 460 143"/>
+<path class="path" d="M125 210C228 230 333 202 385 142S540 201 690 202"/>
+<path class="view" d="M138 166L255 110M398 99L410 43M677 158L598 104"/>
+<g class="observer" transform="translate(125 210)"><circle cy="-43" r="9"/><path d="M0 -30V-17M0 -28L-14 -13M0 -28L14 -15M0 -17L-13 0M0 -17L13 0"/></g><g class="observer" transform="translate(385 142)"><circle cy="-43" r="9"/><path d="M0 -30V-17M0 -28L-14 -13M0 -28L14 -15M0 -17L-13 0M0 -17L13 0"/></g><g class="observer" transform="translate(690 202)"><circle cy="-43" r="9"/><path d="M0 -30V-17M0 -28L-14 -13M0 -28L14 -15M0 -17L-13 0M0 -17L13 0"/></g></svg>

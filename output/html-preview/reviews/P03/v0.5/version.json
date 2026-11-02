@@ -1,0 +1,28 @@
+{
+  "version": "P03-v0.5-draft",
+  "status": "待审核",
+  "confirmed": false,
+  "confirmation_quote": null,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "title": "透视与身即：两种空间观如何组织观看？",
+  "files_sha256": {
+    "P03-1920x1080.png": "231e09f65218422cf06c92fe2a44fe2ad37c09facd85b9ec13b2590187a6474d",
+    "P03-fragment.html": "00ab81fcb0bb5126f9cdac4b79a6aec09689570823b8d7bb7b06e6a6e8e87ef9",
+    "before-state.json": "a4899a1eba1442902591b2e1610b2f77d7d27ae859e621c1e85cd282430027cb",
+    "before.html": "cbd484257c2ada80728524b5dc7cff2bba9d1258e184f5363f1c4c8669da9d38",
+    "before.png": "6d02f41c6d3633c331fbcdb4e7f7084367e86bbca85ddee2abe927d3447876e6",
+    "index.html": "c0dda6779aa35842f1c3be595419a32618938018af7a92db691e58ae052abd5b",
+    "p03-v0.5.css": "eee7b1064900e1a818df19dc65e63348af7807c58d33b592096f8c910cc0d1b9",
+    "page-source.json": "29289baa1203899330ced9a1716e71356403426533b7389805b3de245621b280",
+    "source-records.json": "1ef4c2f56ffa88287685a8adc2e4f50104af76b6b51dc9b16b78e644ed1c73eb",
+    "validation.json": "ea532292fa403f49c6031c949146441bbed98e61261f2f294bf98bacf9395f6c",
+    "素材来源.md": "976bdc178bce0f3545e2604c57b3b57ea7ff6128f97a95ee9b5c78e85883665a",
+    "论证与理论依据.md": "aec59141acde793cf868471f33e0e6acb8d0c353c1111040ab4261fa75876332"
+  },
+  "P01_P02": "确认版及当前画面均未修改",
+  "P04": "未开始",
+  "PPTX": "未制作"
+}
