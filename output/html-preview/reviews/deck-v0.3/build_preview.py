@@ -1,0 +1,116 @@
+from pathlib import Path
+import json,re,hashlib,shutil
+P=Path(__file__).resolve().parent
+if (P/'review-status.json').exists() and any(x.get('confirmed') for x in json.loads((P/'review-status.json').read_text())):
+ raise SystemExit('存在已确认页：禁止批量覆盖。请先读取审核记录并按授权单页修订。')
+slides=[]
+def image(f,cls='',style='',alt='真实馆藏山水作品'):
+ return f'<img class="{cls}" src="assets/{f}" style="{style}" alt="{alt}">'
+def svg(body,w=800,h=400,cls=''):
+ return f'<svg class="{cls}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img"><defs><marker id="arrow{len(slides)}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.5" markerHeight="3.5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#A05C4A"/></marker></defs>{body}</svg>'
+def arrow(path,extra=''):
+ return f'<path d="{path}" class="arrow" marker-end="url(#arrow{len(slides)})" {extra}/>'
+def person(x,y):
+ return f'<g transform="translate({x} {y})" class="person"><circle cy="-31" r="12"/><path d="M0 -14V27M-24 8L0 -9L23 8M0 27L-18 53M0 27L20 53"/></g>'
+def mountain(x=0,y=0,scale=1):
+ return f'<g transform="translate({x} {y}) scale({scale})"><path class="m-back" d="M10 310L100 120L150 200L240 30L320 165L370 110L485 310Z"/><path class="m-front" d="M0 320L90 235L145 268L210 150L285 270L350 223L500 320Z"/><path class="contour" d="M240 30L221 130L255 177M210 150L196 237M100 120L132 231"/></g>'
+def add(n,title,chapter,speaker,body,take,cls='',source='',basis=''):
+ footer=f'<footer><span>{speaker} · {chapter}</span><span>P{n:02d} / 22</span></footer>'
+ if n not in (1,22):
+  head=f'<header><p class="eyebrow"><i></i>{chapter} / {speaker}</p><h1>{title}</h1></header>'
+  content=f'{head}<div class="content {cls}">{body}</div><div class="takeaway">{take}</div>{footer}'
+ else: content=body+footer
+ slides.append(dict(id=f'P{n:02d}',title=title,chapter=chapter,speaker=speaker,html=f'<section class="slide page-{n:02d} {"cover" if n==1 else ""}" id="P{n:02d}" aria-label="P{n:02d} {title}">{content}</section>',source=source,basis=basis,take=take,version='v0.3-draft',status='待审核',confirmed=False))
+# P01: restore original hierarchy and full-height image composition, retain historical candidate separately.
+add(1,'从观看山水到栖居山水','开场','一辩',f'''<div class="cover-copy"><p class="eyebrow"><i></i>课程辩论 / 空间美学</p><h1>从观看山水<br>到栖居山水</h1><p class="subtitle">“身即”与“透视”的空间美学之辩</p><div class="cover-line"></div><p class="cover-position">我方立场：<em>身即</em></p><p class="cover-statement">相较于透视，身即更能实现<br><strong>空间审美的完整性。</strong></p></div><figure class="cover-art">{image('early-spring.jpg',alt='郭熙早春图局部')}<figcaption>郭熙《早春图》局部<br>1072 · 台北故宫 · [图1]</figcaption></figure>''','',source='图1',basis='一辩：开场核心立场；恢复P01-v0.1构图及信息层级，按投影下限调整字号。')
+# P02: repeated mountain deliberately shows same mountain / changed viewpoint.
+body=''
+for k,(label,px,py,path) in enumerate([('山脚 · 仰望',48,300,'M80 264L250 60'),('山中 · 行走',220,240,'M250 210Q330 200 360 140'),('山顶 · 远眺',260,64,'M300 38L490 38')]):
+ body+=f'<div class="mountain-scene"><h2>0{k+1}　{label}</h2>'+svg(mountain()+person(px,py)+arrow(path),520,380)+f'<p>{["高大：身体向上感知","幽深：沿路径进入山谷","辽阔：视野向远处展开"][k]}</p></div>'
+add(2,'同一座山，为何体验不同？','问题提出','一辩',body,'空间是否只能通过一个固定视点被认识？','three-scenes',basis='一辩：假如我们面前有一座山；山脚、山谷、高处三种身体经验。')
+# P03
+left=svg('<path class="grid" d="M60 50H735V350H60ZM60 50L395 190L735 50M60 350L395 190L735 350M60 140H735M60 260H735"/><circle class="red-dot" cx="395" cy="190" r="12"/>'+person(395,336)+arrow('M395 303V208'),800,400)
+right=svg(mountain(170,10,1)+person(105,298)+person(340,225)+person(660,267)+arrow('M128 280C180 350 250 315 310 250S440 185 470 125S590 185 640 265','stroke-dasharray="16 10"')+'<circle class="view-dot" cx="198" cy="306" r="10"/><circle class="view-dot" cx="470" cy="125" r="10"/>',800,400)
+add(3,'透视与身即：两种空间观','概念界定','一辩',f'<div class="compare-concept"><h2>透视 <span>固定视点</span></h2>{left}<p>消失点 · 几何投影</p></div><div class="compare-concept"><h2>身即 <span>身体在场</span></h2>{right}<p>视点转换 · 游观体验</p></div><p class="scope">比较范围：典型单点线性透视；“身即”为本组分析概念。</p>','从“某处看见”，到“置身其中感知”。','concept-pair',basis='一辩：两个概念的界定、固定视点与观看行走记忆想象的区别。')
+# P04
+add(4,'我们的标准：空间审美的完整性','论证导航','一辩','''<p class="thesis">相较于透视，<em>身即</em>更能实现空间审美的完整性。</p><div class="argument-steps"><div><b>01 / 空间认知</b><h2>多维感知</h2><p>更能呈现空间感知的多维性</p></div><span>→</span><div><b>02 / 空间体验</b><h2>主动参与</h2><p>更能激发观者对空间的主动参与</p></div><span>→</span><div><b>03 / 空间意境</b><h2>精神联系</h2><p>更能深化人与空间的精神联系</p></div></div><div class="complete-bar">共同支撑 <strong>空间审美的完整性</strong></div>''','视觉再现之外，纳入身体、参与与精神体验。','argument-map',basis='一辩：总论点、评判标准及三个分论点，原文不变。')
+# P05: accurate contain geometry with overlay coordinates exactly registered to images.
+athens=svg(arrow('M18 38L405 245')+arrow('M790 38L405 245')+arrow('M35 601L405 245')+arrow('M775 601L405 245')+'<circle cx="405" cy="245" r="12" class="red-dot"/>',808,627,'art-overlay')
+early=svg(arrow('M200 548C155 481 265 430 220 360S155 245 195 158','stroke-dasharray="18 12"')+arrow('M230 355Q300 300 370 258') ,431,627,'art-overlay')
+add(5,'两幅作品：空间如何被组织？','空间认知 · 作品对读','二辩',f'<div class="work-compare"><h2>《雅典学院》</h2><div class="painting-window"><div class="registered athens">{image("school-of-athens.jpg",alt="拉斐尔雅典学院全幅")}{athens}</div></div><p>拉斐尔 · 梵蒂冈 · [图2]</p></div><div class="work-compare"><h2>《早春图》</h2><div class="painting-window"><div class="registered early">{image("early-spring.jpg",alt="郭熙早春图全幅")}{early}</div></div><p>郭熙 · 台北故宫 · [图1]</p></div>','固定视点的统一秩序 / 多方向的观看经验。','works-pair',source='图1、图2',basis='二辩：雅典学院建筑纵深统一消失点、早春图山脚溪谷高峰远山；叠线是教学示意，不是测绘。')
+# P06
+scenes=[]
+for label,sub,art in [
+ ('高远','自山下而仰山巅',mountain(10,12,.9)+person(45,308)+arrow('M80 280L235 50')),
+ ('深远','自山前而窥山后',mountain(80,-10,.75)+mountain(5,100,.75)+person(28,320)+arrow('M72 290C130 300 260 245 290 150','stroke-dasharray="15 10"')),
+ ('平远','自近山而望远山',mountain(280,125,.4)+mountain(5,130,.65)+person(95,225)+arrow('M130 200L460 145'))]:
+ scenes.append(f'<div class="mountain-scene"><h2>{label}</h2>{svg(art,520,380)}<p>{sub}</p></div>')
+add(6,'郭熙三远法：多维观看的组织','空间认知 · 理论图解','二辩',''.join(scenes)+'<p class="scope">据《林泉高致集·山水训》；山体、观察者与视线均为教学示意。</p>','仰望、探察、远眺：三种观看关系，并非三个消失点。','three-scenes three-distances',basis='二辩：三远原文及身体感受；参考电子原文核对。')
+# P07 actual crops + registered connector lines
+add(7,'《早春图》：目光如何游历？','空间认知 · 局部分析','二辩',f'<div class="spring-full">{image("early-spring.jpg")}<div class="spot spot-a"></div><div class="spot spot-b"></div><div class="spot spot-c"></div></div><div class="spring-crops"><figure>{image("early-detail-near.jpg") }<figcaption>近景｜松石</figcaption></figure><figure>{image("early-detail-valley.jpg") }<figcaption>纵深｜溪谷</figcaption></figure><figure>{image("early-detail-peak.jpg") }<figcaption>仰望｜主峰</figcaption></figure></div>'+svg('<path class="connector" d="M282 540H520V18H770V78M337 326H550V38H1150V78M336 114H580V58H1530V78"/>',1712,620,'crop-connectors')+'<p class="image-credit">郭熙 · 台北故宫 · [图1]　全幅与局部</p>','目光沿近景、溪谷、主峰移动，综合不同观看方向。','spring-analysis',source='图1',basis='二辩：《早春图》下方松树巨石、幽深山谷、主峰远山的空间分析。')
+# P08
+add(8,'《溪山行旅图》：身体与山川尺度','空间认知 · 尺度分析','二辩',f'<figure class="fan-full">{image("fan-kuan.jpg")}<figcaption>范宽 · 北宋<br>台北故宫 · [图3]</figcaption><div class="traveler-box"></div></figure><div class="fan-detail"><h2>巍峨山体 / 微小行旅</h2><div class="traveler-crop">{image("fan-travelers.jpg")}</div><p>人物为我们提供进入山川的身体尺度。</p><div class="scale-note"><b>山体的高度</b><span>↓</span><strong>身体感知的分量</strong></div></div>','尺度对比不仅关乎比例，也唤起行走其中的经验。','fan-analysis',source='图3',basis='二辩：主峰占据主要空间、山脚细小行旅者及身体经验；不编造数值比例。')
+# P09
+steps=[('观看','山水成为眼前景象'),('移动','目光沿画面路径前行'),('探索','想象进入山林深处'),('形成体验','将自身经验带入空间')]
+body='<p class="lead">第二分论点：身即更能激发观者对空间的主动参与。</p><div class="participation-flow">'
+for i,(h,t) in enumerate(steps):
+ body+=f'<div><b>0{i+1}</b><h2>{h}</h2><p>{t}</p></div>'+('<span class="step-arrow">→</span>' if i<3 else '')
+body+='</div><p class="scope">教学性归纳：不是古代引文，也不要求观者实际进入画中。</p>'
+add(9,'空间体验：从观看到参与','空间体验 · 分论点二','二辩',body,'观者的观看活动，参与空间经验的形成。','participation',basis='二辩：主动参与、长卷展开和观者自身经验；一辩：路径与进入画面的想象。')
+# P10 source segment continuous chronological right to left
+body='<div class="scroll-segments">'
+for i,pos in enumerate([100,50,0]):
+ body+=f'<figure>{image("qianli-section.jpg",style=f"object-position:{pos}% 50%") }<figcaption>0{i+1} / { ["初见山势","沿岸展开","继续游观"][i]}</figcaption></figure>'
+body+='</div><div class="time-flow"><span>观看时间</span><b>01 ─────→ 02 ─────→ 03</b></div><p class="scope">王希孟 · 北宋 · 北京故宫 · [图4]　连续画段由右向左取景。</p>'
+add(10,'《千里江山图》：空间随时间展开','空间体验 · 长卷游观','二辩',body,'空间也在观看过程中逐渐展开。','qianli-layout',source='图4',basis='二辩：长卷逐段展开，前景离去后景出现，空间与时间过程联系。')
+# P11
+add(11,'《富春山居图》：游观与个人经验','空间体验 · 长卷节奏','二辩',f'<figure class="wide-scroll">{image("fuchun-scroll.jpg",style="object-position:76% 50%") }<figcaption>黄公望《富春山居图·无用师卷》局部 · 元代 · 台北故宫 · [图5]</figcaption></figure><div class="rhythm-labels"><span>山势的起伏</span><span>水面的疏密</span><span>观看的节奏</span></div><p class="lead">自然的长期观察，经由笔墨转为个人的艺术空间。</p>','随卷前行：观看与个人经验共同形成游观。','fuchun-layout',source='图5',basis='二辩：连续变化山体坡岸水面、富春江前行、画家长期观察与个人意味。规范提村舍但讲稿无此具体分析，不额外补论据。')
+# P12 quiet chapter page
+add(12,'空间意境：从视觉真实到精神联系','空间意境 · 分论点三','三辩',f'<div class="spirit-copy"><p>第三分论点</p><h2>身即更能深化<br>人与空间的<br><em>精神联系</em></h2><div class="short-rule"></div><p>记忆 · 想象 · 情感</p></div><figure class="spirit-image">{image("early-spring.jpg",style="object-position:32% 55%") }<figcaption>郭熙《早春图》局部 · [图1]</figcaption></figure>','空间不仅具有视觉的真实，也具有情感与精神的意义。','spirit-layout',source='图1',basis='三辩：第三分论点及小径、亭台引发想象的情境。')
+# P13
+add(13,'郭熙：从可望到可游可居','空间意境 · 想象性栖居','三辩',f'<div class="four-can"><div>可行</div><div>可望</div><div class="emphasis">可游</div><div class="emphasis">可居</div><p>由观看，转向游历与栖居的愿望。</p></div><figure class="can-image">{image("early-spring.jpg",style="object-position:45% 90%") }<figcaption>《早春图》局部 · [图1]</figcaption></figure><blockquote>“但可行可望不如可居可游之为得。”<cite>郭熙《林泉高致集·山水训》</cite></blockquote>','山水不只值得观看，也可成为想象中的生命场所。','can-layout',source='图1；文1',basis='引文与解释见一辩、四辩；依页面规划放入三辩空间意境部分，不伪称原讲稿三辩逐字引文。')
+# P14 conceptual original diagram, no fake portrait
+observer=svg(person(90,140)+'<path class="grid" d="M120 120H360V285H120Z"/>'+mountain(130,130,.42)+arrow('M115 108L230 160'),480,340)
+add(14,'宗炳：卧游如何可能？','空间意境 · 澄怀味象','三辩',f'<blockquote>“圣人含道映物，贤者澄怀味象。”<cite>宗炳《画山水序》</cite></blockquote><div class="woyou-flow"><div>{observer}<h2>观看山水图像</h2></div><span>→</span><div class="mind"><b>记忆 / 想象</b><h2>心灵参与</h2><p>澄明心境，体会山水意味</p></div><span>→</span><div class="journey">{svg(mountain(0,0,.8)+arrow('M15 290C120 315 190 270 280 180','stroke-dasharray="15 10"'),480,340)}<h2>精神游历</h2></div></div>','身体未必抵达，精神仍可游历山川。','woyou-layout',source='文2；人物山体为自绘教学示意',basis='三辩：宗炳澄怀味象与卧游，记忆想象身体经验；规范的“披图幽对”不在讲稿，未加入。')
+# P15
+add(15,'卧游传统：图像如何延续游历？','空间意境 · 历史关联','三辩',f'<div class="tradition-origin"><b>南朝 / 宗炳</b><h2>卧游观念</h2><p>图像连接记忆<br>与精神游历</p><span>→</span></div><div class="tradition-art"><figure>{image("shen-zhou.png",style="object-fit:contain") }<figcaption>明 · 沈周《卧游图册》册页<br>北京故宫 · [图6]</figcaption></figure></div><div class="tradition-art"><figure>{image("cheng-zhengkui.jpg",style="object-fit:contain") }<figcaption>清 · 程正揆《江山卧游图》<br>大都会博物馆 · [图7]</figcaption></figure></div><p class="scope">跨时期的观念关联；不将这条线索画成已证实的直接师承。</p>','画中空间，也是记忆、想象与精神活动的场所。','tradition-layout',source='图6、图7',basis='三辩：宗炳、沈周卧游图册、程正揆江山卧游图；不使用其他作品替代。')
+# P16
+add(16,'石涛：山川与予神遇而迹化也','空间意境 · 山川神遇','三辩',f'<figure class="shitao-image">{image("shitao-peaks.png",style="object-position:67% 50%") }<figcaption>石涛《搜尽奇峰打草稿图卷》局部 · 1691 · 北京故宫 · [图8]</figcaption></figure><div class="shitao-flow"><h2>山川经验</h2><span>→</span><h2>主体感受</h2><span>→</span><h2>笔墨表达</h2></div><p class="scope">引文据《苦瓜和尚画语录·山川章第八》；图解为讲稿思想的教学归纳。</p>','画中山川承载人与自然相遇后的感知与理解。','shitao-layout',source='图8；文3',basis='三辩：神遇引文、自然观察与个人艺术语言；题跋讨论郭熙尚待核实，未当已核实论据展示。')
+# P17
+tri=svg('<path class="connector" d="M150 360L470 75L785 360Z"/><circle class="node-bg" cx="470" cy="75" r="65"/><circle class="node-bg" cx="150" cy="360" r="65"/><circle class="node-bg" cx="785" cy="360" r="65"/><text x="470" y="95" text-anchor="middle">身体</text><text x="150" y="380" text-anchor="middle">感知</text><text x="785" y="380" text-anchor="middle">空间</text><text x="470" y="285" text-anchor="middle" class="svg-em">经验中的世界</text>',940,470)
+add(17,'梅洛-庞蒂：身体知觉与空间经验','空间意境 · 现代解释视角','三辩',f'<div class="phenomenology-graph">{tri}</div><div class="phenomenology-copy"><p class="book-label">《知觉现象学》</p><h2>身体，是感知与<br>理解世界的条件。</h2><ul><li>位置与方向</li><li>行动的可能</li><li>与环境的关系</li></ul><p>思想转述，非逐字引文。</p></div>','以现代哲学对话山水经验，不建立历史影响关系。','phenomenology-layout',source='文4',basis='三辩：现代哲学补充段落；只作现代解释视角，不说影响中国画。')
+# P18 horizontal timeline with alternating top/bottom nodes, all48 minimum.
+items=[('南朝','宗炳','澄怀·卧游'),('隋（传）','展子虔','山水与游赏'),('北宋','郭熙·范宽','三远·尺度'),('元','黄公望','个人游观'),('明','沈周','图册卧游'),('清','石涛<br>程正揆','神遇·卧游')]
+body='<div class="history-timeline"><div class="history-rule"></div>'
+for i,(era,name,term) in enumerate(items):
+ body+=f'<div class="history-node {"upper" if i%2==0 else "lower"}" style="--x:{i*16.6667}%"><i></i><b>{era}</b><h2>{name}</h2><p>{term}</p></div>'
+body+='</div><p class="scope">历史线索并置，非单线进步；展子虔归属与年代存疑。</p>'
+add(18,'中国山水空间观：一条历史线索','全场总结 · 历史回望','四辩',body,'跨越不同时代，共同追问人与天地如何建立联系。','history-layout',basis='一辩：传展子虔；四辩：南朝至清代的历史回收；不增添未证实因果与精确断代。')
+# P19 recall with actual images, three modules purposefully reuses previous visuals
+body='<div class="recall-grid">'
+for f,h,t,pos in [('early-spring.jpg','多维感知','观看方向与身体尺度','50% 50%'),('qianli-section.jpg','主动参与','展开长卷，形成观看经验','50% 50%'),('shitao-peaks.png','精神联系','记忆、想象与山川神遇','67% 50%')]:
+ body+=f'<div><figure>{image(f,style=f"object-position:{pos}")}</figure><h2>{h}</h2><p>{t}</p></div>'
+body+='</div><p class="scope">既有论据局部：《早春图》《千里江山图》《搜尽奇峰图》。</p>'
+add(19,'回收：三个分论点，共同回应什么？','全场总结 · 论点回收','四辩',body,'由空间认知，到空间体验，再到空间意境。','recall-layout',source='图1、图4、图8',basis='四辩：三个分论点回顾；不增加新证据。')
+# P20 center-weighted synthesis native geometry
+body='''<div class="synthesis-top"><span>多维感知</span><b>＋</b><span>主动参与</span><b>＋</b><span>精神联系</span></div><div class="synthesis-fan"><svg viewBox="0 0 1712 125" xmlns="http://www.w3.org/2000/svg"><path class="connector" d="M360 0L856 125L1352 0M856 0V125"/></svg></div><div class="synthesis-center"><p>我方判断</p><h2>空间审美的完整性</h2></div><p class="synthesis-bottom">不仅让空间被看见，更让空间被感知、参与和体验。</p>'''
+add(20,'为什么身即更具空间审美完整性？','全场总结 · 综合逻辑','四辩',body,'以完整性为标准，身体经验与精神参与具有核心价值。','synthesis-layout',basis='四辩：总论点，空间审美标准扩展到身体感知、主动参与和精神体验。')
+# P21 three illustrations distinct: path garden / floorplan / interactive points
+icons=[svg('<path class="grid" d="M30 50H430V260H30Z"/><path class="m-front" d="M50 210L110 100L160 200L210 120L260 210Z"/>'+arrow('M40 250C190 300 160 180 290 200S300 70 420 80','stroke-dasharray="15 10"'),480,320),svg('<path class="grid" d="M40 50H430V260H40ZM150 50V140H300V260M150 140H40M300 140H430"/>'+person(220,135)+arrow('M230 185L390 185'),480,320),svg('<circle class="node-bg" cx="240" cy="155" r="70"/><circle class="view-dot" cx="60" cy="70" r="20"/><circle class="view-dot" cx="420" cy="70" r="20"/><circle class="view-dot" cx="420" cy="260" r="20"/>'+arrow('M90 83L170 120')+arrow('M310 120L390 85')+arrow('M300 205L390 247'),480,320)]
+body='<div class="contemporary-grid">'
+for (h,q),ic in zip([('园林游览','人如何行动？'),('空间设计','人如何感知环境？'),('交互体验','如何获得情感与体验？')],icons):body+=f'<div>{ic}<h2>{h}</h2><p>{q}</p></div>'
+body+='</div><p class="scope">理论启发的概念示意；不指认或虚构具体建成案例。</p>'
+add(21,'当代启发：让体验进入空间设计','全场总结 · 当代延伸','四辩',body,'从图纸上的准确，进一步追问空间中的生命经验。','contemporary-layout',basis='四辩：园林、公共空间、数字交互环境的三问；不增加具体案例。')
+# P22
+add(22,'从观看山水，到栖居山水','结辩','四辩',f'<figure class="ending-art">{image("early-spring.jpg",style="object-position:60% 42%")}</figure><div class="ending-copy"><p class="eyebrow"><i></i>结辩 / 从观看到栖居</p><h1>透视让空间<br>呈现在眼前，<br><em>而身即让生命<br>置身于山水之间。</em></h1><div class="cover-line"></div><p>谢谢大家</p></div><p class="ending-credit">郭熙《早春图》局部 · 台北故宫 · [图1]</p>','',source='图1',basis='四辩：最后一句结辩陈述，原文不变。')
+nav='''<nav class="controls" aria-label="演示控制"><button id="prev">← 上一页</button><label>跳转 <input id="jump" type="number" min="1" max="22" value="1" aria-label="跳转页码"></label><span id="counter">01 / 22</span><button id="next">下一页 →</button><button id="overview">总览</button><a id="single" href="pages/P01.html" target="_blank">单页</a><button id="fullscreen">全屏</button><a href="README.md">说明 / 来源</a></nav><dialog id="thumbs"><button id="close-thumbs">关闭总览</button><div class="thumb-grid"></div></dialog>'''
+def document(parts,single=False):
+ return '<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>从观看山水到栖居山水｜22页待审核初稿</title><link rel="stylesheet" href="styles.css"></head><body'+(' data-single="true"' if single else '')+'><main class="viewer"><div class="stage">'+''.join(parts)+'</div></main>'+nav+'<script src="app.js"></script></body></html>'
+(P/'index.html').write_text(document([s['html'] for s in slides]))
+(P/'pages').mkdir(exist_ok=True)
+for s in slides:
+ html=document([s['html']],True).replace('href="styles.css"','href="../styles.css"').replace('src="app.js"','src="../app.js"').replace('src="assets/','src="../assets/').replace('href="README.md"','href="../README.md"')
+ (P/'pages'/f'{s["id"]}.html').write_text(html)
+(P/'review-status.json').write_text(json.dumps([{k:v for k,v in s.items() if k!='html'} for s in slides],ensure_ascii=False,indent=2))
+(P/'page-content.json').write_text(json.dumps([{**{k:v for k,v in s.items() if k!='html'},'html_sha256':hashlib.sha256(s['html'].encode()).hexdigest()} for s in slides],ensure_ascii=False,indent=2))
+print('Generated',len(slides),'individually authored pages; no page confirmed.')

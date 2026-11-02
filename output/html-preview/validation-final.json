@@ -196,5 +196,12 @@
     "实体手机和投影待测",
     "PPTX未制作",
     "纸本引文及馆方元数据仍有待核项目"
-  ]
+  ],
+  "version": "v0.4-draft",
+  "retained_pages_pixel_identical": {
+    "P01": true,
+    "P22": true
+  },
+  "source_docx_sha256": "5de6342ac72906d530e2e2ea79a432110788b93ab3c7c2567304798ab08803af",
+  "original_thesis_and_three_claims": "P04 literal strings verified unchanged"
 }
